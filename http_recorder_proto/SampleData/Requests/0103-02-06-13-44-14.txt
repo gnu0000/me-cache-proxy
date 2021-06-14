@@ -1,0 +1,27 @@
+#### UpdateObject (GUID) ####
+
+bless( {
+  '_protocol' => 'HTTP/1.1',
+  '_content' => '
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+<SOAP-ENV:Body>
+<SOAPSDK1:UpdateObject xmlns:SOAPSDK1="http://tempuri.org/message/">
+<lpObject>0</lpObject>
+<bstrSerializedObject>CheckedOut=0	IsNull=0	ReadOnly=0	CheckOutUserId=	CreatorUserId=	LastModifiedByUserId=	OriginalFileName=	VersionNumber=1.0	ClassificationId=USER	CheckOutDateTime=   0-00-00 00:00:00	EnvelopeLastUpdated=   0-00-00 00:00:00	ObjectLastUpdated=   0-00-00 00:00:00
+ASSOCIAT=2=1	COMP_KEY=TestUpdateCompKey=1	CREATED=2002-06-02 09:10:00=1	DESCR=TestUpdDescription=1	ENTITY=TestUpdateEntity=1	NAME=Test_Object=1	SECURITY=TestUpdSecuri=1	TYPE=Test=1</bstrSerializedObject>
+<bstrObjectGUID>73ad0c38-a976-4c1a-9f68-2ba41a65fd2d</bstrObjectGUID>
+</SOAPSDK1:UpdateObject>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>',
+  '_uri' => bless( do{\(my $o = 'http://localhost:8889/obs-cgi-bin/ObjStoreServer.exe')}, 'URI::http' ),
+  '_headers' => bless( {
+    'user-agent' => 'TrnsPort TestSuite-Relay/1.0',
+    'soapaction' => '"http://tempuri.org/action/COBSObjectStore.UpdateObject"',
+    'content-type' => 'text/xml; charset="UTF-8"',
+    'content-length' => '917',
+    'host' => 'localhost:8889'
+  }, 'HTTP::Headers' ),
+  '_method' => 'POST'
+}, 'HTTP::Request' )
+

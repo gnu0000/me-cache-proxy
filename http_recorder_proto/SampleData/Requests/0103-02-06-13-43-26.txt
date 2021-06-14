@@ -1,0 +1,25 @@
+#### RemoveObject ####
+
+bless( {
+  '_protocol' => 'HTTP/1.1',
+  '_content' => '
+  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  	<SOAP-ENV:Body>
+  		<SOAPSDK1:RemoveObject xmlns:SOAPSDK1="http://tempuri.org/message/">
+  			<bstrObjectGUID>07e355e7-3619-431e-977a-b12e36a9e6be</bstrObjectGUID>
+  		</SOAPSDK1:RemoveObject>
+  	</SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>',
+
+  '_uri' => bless( do{\(my $o = 'http://localhost:8889/obs-cgi-bin/ObjStoreServer.exe')}, 'URI::http' ),
+  '_headers' => bless( {
+    'user-agent' => 'TrnsPort TestSuite-Relay/1.0',
+    'soapaction' => '"http://tempuri.org/action/COBSObjectStore.RemoveObject"',
+    'content-type' => 'text/xml; charset="UTF-8"',
+    'content-length' => '411',
+    'host' => 'localhost:8889'
+  }, 'HTTP::Headers' ),
+  '_method' => 'POST'
+}, 'HTTP::Request' )
+

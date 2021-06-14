@@ -1,0 +1,26 @@
+bless( {
+  '_protocol' => 'HTTP/1.1',
+  '_content' => '
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+<SOAP-ENV:Body>
+<SOAPSDK1:AddObject xmlns:SOAPSDK1="http://tempuri.org/message/">
+<lpObject>0</lpObject>
+<bstrFileName>c:\\program files\\iti object store\\store\\73ad0c38-a976-4c1a-9f68-2ba41a65fd2d.20030206134409208760</bstrFileName>
+<bstrSerializedObject>CheckedOut=0	IsNull=0	ReadOnly=0	CheckOutUserId=	CreatorUserId=Test_Creator	LastModifiedByUserId=	OriginalFileName=C:/TestSuite/Proto/Stuff/Components/testobj.txt	VersionNumber=1.0	ClassificationId=USER	CheckOutDateTime=2003-02-06 13:43:31	EnvelopeLastUpdated=2003-02-06 13:43:31	ObjectLastUpdated=2003-02-06 13:43:31
+ASSOCIAT=1=1	COMP_KEY=Test_CompKey=1	CREATED=2002-05-31 08:40:00=1	DESCR=ObjectStore_Test=1	ENTITY=Test_entity=1	NAME=Test_Object=1	SECURITY=Testsecurity=1	TYPE=test=1</bstrSerializedObject>
+<bstrObjectGUID>73ad0c38-a976-4c1a-9f68-2ba41a65fd2d</bstrObjectGUID>
+</SOAPSDK1:AddObject>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>',
+  '_uri' => bless( do{\(my $o = 'http://localhost:8889/obs-cgi-bin/ObjStoreServer.exe')}, 'URI::http' ),
+  '_headers' => bless( {
+    'user-agent' => 'TrnsPort TestSuite-Relay/1.0',
+    'soapaction' => '"http://tempuri.org/action/COBSObjectStore.AddObject"',
+    'content-type' => 'text/xml; charset="UTF-8"',
+    'content-length' => '1083',
+    'host' => 'localhost:8889'
+  }, 'HTTP::Headers' ),
+  '_method' => 'POST'
+}, 'HTTP::Request' )
+

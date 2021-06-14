@@ -1,0 +1,11 @@
+Status: 200 OK
+Client-Date: Thu, 06 Feb 2003 18:43:38 GMT
+Client-Response-Num: 1
+Connection: close
+Content-Length: 943
+Content-Type: text/xml
+Date: Thu, 06 Feb 2003 18:43:37 GMT
+Server: Apache/1.3.20 (Win32)
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body><SOAPSDK1:GetObjectResponse xmlns:SOAPSDK1="http://tempuri.org/message/"><Result>20593400</Result><lpObject>20593400</lpObject><bstrSerializedObject>CheckedOut=0	IsNull=0	ReadOnly=0	CheckOutUserId=	CreatorUserId=Test_Creator	LastModifiedByUserId=	OriginalFileName=C:/TestSuite/Proto/Stuff/Components/testobj.txt	VersionNumber=1.0       	ClassificationId=USER	CheckOutDateTime=2003-02-06 13:43:31	EnvelopeLastUpdated=2003-02-06 13:43:31	ObjectLastUpdated=2003-02-06 13:43:31
+ASSOCIAT=1=1	COMP_KEY=Test_CompKey=1	CREATED=2002-05-31 08:40:00=1	DESCR=ObjectStore_Test=1	ENTITY=Test_entity=1	NAME=Test_Object=1	SECURITY=Testsecurity=1	TYPE=test=1</bstrSerializedObject></SOAPSDK1:GetObjectResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

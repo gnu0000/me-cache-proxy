@@ -1,0 +1,27 @@
+#### GetObject - uses GUID ####
+
+bless( {
+  '_protocol' => 'HTTP/1.1',
+  '_content' => '
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Body>
+		<SOAPSDK1:GetObject xmlns:SOAPSDK1="http://tempuri.org/message/">
+			<bstrObjectGUID>
+				73ad0c38-a976-4c1a-9f68-2ba41a65fd2d
+			</bstrObjectGUID>
+			<bstrSerializedObject>Client-Request</bstrSerializedObject>
+		</SOAPSDK1:GetObject>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>',
+  '_uri' => bless( do{\(my $o = 'http://localhost:8889/obs-cgi-bin/ObjStoreServer.exe')}, 'URI::http' ),
+  '_headers' => bless( {
+    'user-agent' => 'TrnsPort TestSuite-Relay/1.0',
+    'soapaction' => '"http://tempuri.org/action/COBSObjectStore.GetObject"',
+    'content-type' => 'text/xml; charset="UTF-8"',
+    'content-length' => '464',
+    'host' => 'localhost:8889'
+  }, 'HTTP::Headers' ),
+  '_method' => 'POST'
+}, 'HTTP::Request' )
+

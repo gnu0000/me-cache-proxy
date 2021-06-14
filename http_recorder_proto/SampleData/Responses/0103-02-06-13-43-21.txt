@@ -1,0 +1,89 @@
+Status: 200 OK
+Accept-Ranges: bytes
+Client-Date: Thu, 06 Feb 2003 18:43:21 GMT
+Client-Response-Num: 1
+Connection: close
+Content-Length: 4562
+Content-Type: text/plain
+Date: Thu, 06 Feb 2003 18:43:21 GMT
+ETag: "0-11d2-3b58715e"
+Last-Modified: Fri, 20 Jul 2001 17:58:54 GMT
+Server: Apache/1.3.20 (Win32)
+
+<?xml version='1.0' encoding='UTF-8' ?> 
+ <!-- Generated 07/20/01 by Microsoft SOAP Toolkit WSDL File Generator, Version 1.02.813.0 --> 
+<servicemapping name='ObjectStore'>
+  <service name='ObjectStore'>
+    <using PROGID='ObjectStore.COBSObjectStore.1' cachable='0' ID='COBSObjectStoreObject' />
+    <port name='COBSObjectStoreSoapPort'>
+      <operation name='GetObject'>
+        <execute uses='COBSObjectStoreObject' method='GetObject' dispID='1'>
+          <parameter callIndex='1' name='bstrObjectGUID' elementName='bstrObjectGUID' />
+          <parameter callIndex='2' name='lpObject' elementName='lpObject' />
+          <parameter callIndex='3' name='bstrSerializedObject' elementName='bstrSerializedObject' />
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+        </execute>
+      </operation>
+      <operation name='ExecuteSearch'>
+        <execute uses='COBSObjectStoreObject' method='ExecuteSearch' dispID='5'>
+          <parameter callIndex='1' name='bstrResultSet' elementName='bstrResultSet' />
+          <parameter callIndex='2' name='bstrQueryIn' elementName='bstrQueryIn' />
+          <parameter callIndex='3' name='bstrSearchHint' elementName='bstrSearchHint' />
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+        </execute>
+      </operation>
+      <operation name='GetLastUpdateTime'>
+        <execute uses='COBSObjectStoreObject' method='GetLastUpdateTime' dispID='14'>
+          <parameter callIndex='1' name='dEnvLastUpdated' elementName='dEnvLastUpdated' />
+          <parameter callIndex='2' name='dObjLastUpdated' elementName='dObjLastUpdated' />
+          <parameter callIndex='3' name='bstrQueryIn' elementName='bstrQueryIn' />
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+        </execute>
+      </operation>
+      <operation name='DownloadObjectData'>
+        <execute uses='COBSObjectStoreObject' method='DownloadObjectData' dispID='17'>
+          <parameter callIndex='1' name='bstrObjectGUID' elementName='bstrObjectGUID' />
+          <parameter callIndex='2' name='bstrFileName' elementName='bstrFileName' />
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+        </execute>
+      </operation>
+      <operation name='AddObject'>
+        <execute uses='COBSObjectStoreObject' method='AddObject' dispID='24'>
+          <parameter callIndex='1' name='lpObject' elementName='lpObject' />
+          <parameter callIndex='2' name='bstrFileName' elementName='bstrFileName' />
+          <parameter callIndex='3' name='bstrSerializedObject' elementName='bstrSerializedObject' />
+          <parameter callIndex='4' name='bstrObjectGUID' elementName='bstrObjectGUID' />
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+        </execute>
+      </operation>
+      <operation name='RemoveObject'>
+        <execute uses='COBSObjectStoreObject' method='RemoveObject' dispID='36'>
+          <parameter callIndex='1' name='bstrObjectGUID' elementName='bstrObjectGUID' />
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+        </execute>
+      </operation>
+      <operation name='UploadObjectData'>
+        <execute uses='COBSObjectStoreObject' method='UploadObjectData' dispID='37'>
+          <parameter callIndex='1' name='bstrObjectGUID' elementName='bstrObjectGUID' />
+          <parameter callIndex='2' name='bstrFileName' elementName='bstrFileName' />
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+        </execute>
+      </operation>
+      <operation name='RetrieveSupportedClassifications'>
+        <execute uses='COBSObjectStoreObject' method='RetrieveSupportedClassifications' dispID='41'>
+          <parameter callIndex='1' name='bstrSerializedClassifications' elementName='bstrSerializedClassifications' />
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+        </execute>
+      </operation>
+      <operation name='UpdateObject'>
+        <execute uses='COBSObjectStoreObject' method='UpdateObject' dispID='42'>
+          <parameter callIndex='1' name='lpObject' elementName='lpObject' />
+          <parameter callIndex='2' name='bstrSerializedObject' elementName='bstrSerializedObject' />
+          <parameter callIndex='3' name='bstrObjectGUID' elementName='bstrObjectGUID' />
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+        </execute>
+      </operation>
+    </port>
+  </service>
+</servicemapping>
+ 

@@ -1,0 +1,13 @@
+bless( {
+  '_protocol' => 'HTTP/1.1',
+  '_content' => '',
+  '_uri' => bless( do{\(my $o = 'http://localhost:8889/obs-htdocs/objectstore.wsdl')}, 'URI::http' ),
+  '_headers' => bless( {
+    'user-agent' => 'TrnsPort TestSuite-Relay/1.0',
+    'accept' => '*/*',
+    'accept-encoding' => 'gzip, deflate',
+    'host' => 'localhost:8889'
+  }, 'HTTP::Headers' ),
+  '_method' => 'GET'
+}, 'HTTP::Request' )
+

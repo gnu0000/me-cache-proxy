@@ -1,0 +1,13 @@
+#### the actual get (uses GUID ####) ####
+
+bless( {
+  '_protocol' => 'HTTP/1.1',
+  '_content' => '',
+  '_uri' => bless( do{\(my $o = 'http://localhost:8889/obs-cgi-bin/obstore/get/73ad0c38-a976-4c1a-9f68-2ba41a65fd2d20030206134348599.bin')}, 'URI::http' ),
+  '_headers' => bless( {
+    'user-agent' => 'TrnsPort TestSuite-Relay/1.0',
+    'host' => 'localhost:8889'
+  }, 'HTTP::Headers' ),
+  '_method' => 'GET'
+}, 'HTTP::Request' )
+

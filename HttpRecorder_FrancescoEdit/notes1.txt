@@ -1,0 +1,104 @@
+
+Logic:
+I had trouble testing the program logic.  Here's what I did:
+
+here is how I setup the cfg file:
+--
+HTTPREC_HOST=craigf.infotechfl.com
+CLIENT_PORT=8989
+SERVER_HOST=craigf.infotechfl.com
+SERVER_PORT=80
+HTTPREC_CMD_PREFIX=ititestcommand
+--
+I don't understand why you need the HTTPREC_HOST at all, but if you do, 
+wouldn't it be more consistent to say CLIENT_HOST or alternatively, 
+change CLIENT_PORT to HTTPREC_PORT?
+
+OK, I run the script and it says:
+--
+Contact: <URL:http://craigf:8989/>
+Connection accepted.
+--
+ok...
+
+I goto a browser and type :
+http://craigf.infotechfl.com:8989/
+http://craigf.infotechfl.com:8989/ititestcommand
+http://craigf.infotechfl.com:8989/ititestcommand?cmd=list
+http://craigf.infotechfl.com:8989/ititestcommand?cmd=menu
+and I get back a page saying 'NOT AN ITI-TEST-CONTROL COMMAND' for each case
+
+I could not get any commands to work.  Finally I put a couple of debug prints 
+in the Recognize command and I see:
+
+	DEBUG: RecognizeCommand: URI = /ititestcommand?cmd=menu
+	DEBUG: RecognizeCommand: CMD_PREFIX = http://craigf.infotechfl.com:8989/ititestcommand?
+
+I don't think CMD_PREFIX will ever be a substring of URI so I don't see how 
+you got this to work for you.  Am I doing something wrong?
+
+if I type:
+http://craigf:8989/ititestcommand?cmd=menu
+it does not return at all.
+
+I suggest that you don't need to consider the client host at all.
+Here is what I'd expect for the behavior:
+
+	"http://craigf.infotechfl.com:8989/"
+Just a passthrough if not in record mode, or pass & record if recording
+
+	"http://craigf.infotechfl.com:8989/ititestcommand"
+This should behave just like cmd=menu
+
+	"http://craigf.infotechfl.com:8989/ititestcommand?cmd=menu"
+This should return a page with form(s) or links to form pages
+to start recording, etc...
+
+	"http://craigf.infotechfl.com:8989/ititestcommand?cmd=list"
+	"http://craigf:8989/ititestcommand?cmd=list"
+return the list of files in the storage dir, etc...
+
+
+finally, how about we use 'command' rather than 'cmd' to be consistent
+with out other scripts that do similar things.
+
+
+
+Source:
+I had a few minor issues with the source code:
+
+General
+	There are lots of global variables.  Then again I'm a C programmer so 
+	maybe I'm over concerned about such things, but general experience 
+	tends to stear me to minimizing them.  Often times, if I have a lot
+	of vars from something like a config file, I'll use a global hash.
+
+Code layout:
+	The file outlay looks like this:
+		<comment block, includes, globals, etc...>
+		<code not in subs>
+		<bunch of subs>
+		<code not in subs>
+	This layout of having code before and after the list of subs I found
+	to be confusing.
+
+	sub ProcessCommand is real big.
+
+Naming convention:
+	The naming convention for vars is mixed.  I realize it's 
+	probably	because you started with Charle's code, with my changes, and 
+	we all have different conventions, but a consistent convention really 
+	helps readability.  By mixed conventions I mean this:
+
+	Some global vars are all uppercase with underscores: $HTTPREC_CMD_PREFIX, etc
+	Some global vars are all lowercase: $nocfg, etc
+	Some global vars are mixed case: $ResTypeString ,etc
+	Locals are mostly lowercase, but some are mixed case.
+
+	How about if we use uppercase with underscores for globals, and either all
+	mixed case, or all lowercase for my/locals?
+
+
+
+
+

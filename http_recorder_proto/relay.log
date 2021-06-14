@@ -1,0 +1,742 @@
+Accepted new connection.
+Accepted request:
+GET / HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Host: craigf:8889
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.0.3705)
+
+
+.
+
+Modified request:
+GET http://Craigf.infotechfl.com:80/ HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Host: Craigf.infotechfl.com:80
+User-Agent: TrnsPort TestSuite-Relay/1.0
+
+
+.
+
+response:
+<html>
+<head><title>Craigs Home Page</title></head>
+<body bgcolor=#ffcc99>
+<a name="top"></a>
+
+<!-- Top row menu -->
+<table width=100% border=0 cellspacing=0 cellpadding=0 bgcolor=#000000>
+	<tr>
+   <td height=25 align=left nowrap>
+		<font face="ms sans serif, geneva" size=1 color=#CCCCFF>&nbsp;&nbsp;
+		<a href="/cgi-bin/fileio.pl"><font color=#CCCCFF><b>File IO</b></font></a> | 
+		<a href="x"><font color=#CCCCFF><b>Remote Exec</b></font></a> |
+		<a href="mailto:craig@infotechfl.com"><font color=#CCCCFF><b>EMail Me</b></font></a> | 
+		<a href="x"><font color=#CCCCFF><b>Check Mail</b></font></a>
+		</font>
+	</td>
+	<td align=right nowrap>
+		<font color=#ffffff face="arial,helvetica" size=2><b>
+		
+		Wednesday, January 29
+		</b>&nbsp;&nbsp;</font>
+	</td>
+	</tr>
+</table>
+
+
+<!-- block under menu -->
+<table width=100% border=0 cellspacing=0 cellpadding=4>
+	<tr bgcolor=#CCCCFF>
+ 	 <td>		 
+ 	  &nbsp;	 
+ 	 </td>		 
+ 	 <td>		 
+ 	  &nbsp;	 
+ 	 </td>		 
+	 <td>
+	  <img src="images/home1.jpg">
+	 </td>
+	 <td align=center>
+	  <A HREF="a.htm" TARGET="_top"><IMG SRC="images/xh.jpg" ALT="Hey!" BORDER="0" VSPACE="2"></A>
+     </td>
+	</tr>
+	<tr>
+	 <td height=20>
+	  <spacer type=block height=20>
+	 </td>
+	</tr>
+</table>
+
+
+<!-- main links header -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+	<tr valign=center bgcolor=#113377>
+		<td height=25>
+	   	<image src="images/dancer.gif">
+			<font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Main Links</b></font>
+		</td>
+		<td align=right><image src="images/dancer.gif"></td>
+	</tr>
+	<tr><td height=20><spacer type=block height=20></td></tr>
+</table>
+
+
+
+<!-- bulleted list -->
+<table width=100% border=0 cellspacing=0 cellpadding=0>
+	<tr valign=top>
+	<td> &nbsp;&nbsp; </td>
+	<td width="25%"><font face="arial, helvetica" size=2>
+	<ul>
+	<li><a href="http://home.infotechfl.com" > <B>ITI Intranet </B></A>
+	<li><a href="http://home.cloverleaf.net" > <B>Cloverleaf   </B></A>
+	<li><a href="http://www.google.com"> 	    <B>Google  </B></A>
+	<li><a href="http://www.infotechfl.com"  > <B>ITI Internet </B></A>
+	</ul></font></td>
+	<td width="25%"><font face="arial, helvetica" size=2>
+	<ul>
+	<li><a href="http://www.bidx.com">            				  <B>BidX          </B></A>
+	<li><a href="http://ozetteb.infotechfl.com/index.shtml">	  <B>Ozette's Site </B></A>
+	<li><a href="http://randyf.infotechfl.com/~fischer"> 	  	  <B>Randy's Site  </B></A>
+	<li><a href="http://www.bahnhof.se/~engstrom/e_ftpsearch.htm"><B>FTPSearch	   </B></A>
+	</ul></font></td>
+	<td width="25%"><font face="arial, helvetica" size=2>
+	<ul>
+	<li><a href="http://www.altavista.com">   <B>AltaVista</B></A>
+	<li><a href="http://www.yahoo.com">       <B>Yahoo    </B></A>
+	<li><a href="http://www.geocities.com">   <B>Geocities</B></A>
+	<li><a href="http://www.lycos.com">       <B>Lycos    </B></A>
+
+<!--	<li><a href="http://www.bahnhof.se/~engstrom/e_ftpsearch.htm"><B>FTP Search(search)	</B></A> -->
+<!--	<li><a href="astalavista.box.sk"><B>Another Search(search)</B></A> -->
+
+	</ul></font></td>
+	<td width="25%"><font face="arial, helvetica" size=2>
+	<ul>
+	<li><a href="http://www.slashdot.org/">	<B>SlashDot</B></A>
+	<li><a href="http://cnn.com/WEATHER/html/GainesvilleFL.html">	<B>Local Weather</B></A>
+	<li><a href="/cgi-bin/webcam.pl">         							<B>My WebCam   </B></A>
+	<li><a href="http://www.netflix.com">         						<B>NetFlix   </B></A>
+	</ul></font></td>
+	</tr>
+</table>
+
+
+<!-- 2 COLUMNS OF DETAIL SECTIONS -->
+<table cellpadding=8 cellspacing=0 border=0 width=100%>
+	<tr>
+	<td width=50% valign=top>
+
+	<!--- Feature Links --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Featured Links </b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Homemade Animations</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/smacker/t5b.exe">Revolving Trnsport Balls</a>
+		   <li><a href="/smacker/xport-win.exe">TrnsPort Mini-Commercial</a>
+		   <li><a href="/smacker/r1-2.exe">Cloverleaf Thingie</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- DataMart --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Datamart OLAP Stuff </b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Datamart Web Pages</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/cgi-bin/dm.pl">Datamart OLAP prototype</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- Expedite --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Expedite 4.x </b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Expedite Design Docs</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+
+		   <li><a href="/products/ExpediteInterfaceDocs/index.htm">Expedite <--> Bidx Interface Spec 1.00(txt)</a>
+		   <li><a href="/products/ExpediteInterfaceDocs/heep99/">Expedite Bid Submission Technology presentation</a>
+		   <li><a href="/products/ExpediteInterfaceDocs/heep99/images.html">Bid Submission Flowcharts</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Expedite Source</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/expedite/src/">Expedite 4.2b Source</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Expedite Binaries</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/expedite/43b/setup/readme.txt"    >Expedite 4.3b Readme</a>
+		   <li><a href="/expedite/43b/setup/setup.exe"     >Expedite 4.3b Setup (exe)</a>
+		   <li><a href="/expedite/43b/bidsetup/setup.exe"  >Expedite Bid 4.3b Setup (exe)</a>
+		   <li><a href="/expedite/42b/bidsetup/samples.zip">Expedite Bid 4.2b Sample Files</a>
+		   <li><a href="/expedite/42b/setup/demoreadme.txt">Expedite 4.2b Demo Readme</a>
+		   <li><a href="/expedite/42b/setup/demosetup.exe" >Expedite 4.2b Demo Setup (exe)</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- Utiltities --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Web Based Utilities</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+
+
+		   <li><a href="http://home.infotechfl.com/cgi-bin/projectsearch.pl">Project Number Search</a>
+		   <li><a href="http://pony.infotechfl.com/mrbs/">Conference room reservation</a>
+		   <li><a href="http://home.infotechfl.com/cgi-bin/resplan.pl">Time Allocations</a>
+		   <li><a href="http://home.infotechfl.com/cgi-bin/timeinfo/timeinfo.pl">Timesheet Query</a>
+		   <li><a href="/webmaster/search/allsrch.htm">Search all O'Reilly books</a>
+		   <li><a href="/webmaster/index/idx_0.htm">O'Reilly books master Index</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- perl --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Perl Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="/webmaster/perl/index.htm">O'Reilly's Programming Perl    </a>
+	      <li><a href="/perldocs/index.html"     >ActiveState Perl standard distribution docs</a>
+	      <li><a href="/perl/refcard/refcard.htm">Perl Reference Card            </a>
+	      <li><a href="/perl/cookbook/index.html">Perl Data structures cookbook  </a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Samples</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="sample/odbc.htm">odbc sample using MSAccess</a>
+	      <li><a href="/cgi-bin/pv.pl">Perl/Povray Sample</a>
+	      <li><a href="/cgi-bin/autoidx.pl">workarea</a>
+	      <li><a href="/cgi-bin/cgisamp.pl">CGI Sample</a>
+	      <li><a href="/perl/sample/gdsample.htm">GD Sample</a>
+	      <li><a href="/perl/sample/grapsamp.htm">Graph Sample</a>
+	      <li><a href="/perl/sample/ggrpsamp.htm">GifGraph Sample</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- C --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;C/C++ Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+
+		   <li><a href="/mfc/readme.htm">Professional MFC C++ 5</a>
+		   <li><a href="/c/ansi_esc.txt">ANSI Escape Sequences</a>
+		   <li><a href="/cpp/stl/tut.html">STL Tutorial</a>
+
+		<tr><td><B><font size=3>Links</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="http://www.codeguru.com/" >CodeGuru</a>
+		   <li><a href="http://msdn.microsoft.com/visualc/" >Microsoft Visual C Link</a>
+		   <li><a href="http://www.microsoft.com/win32dev/" >Microsoft WIN32 Development Link</a>
+		   <li><a href="http://msdn.microsoft.com/developer/default.htm" >Microsoft MSDN Site</a>
+		   <li><a href="http://www.cs.rpi.edu/~musser/stl.html" >Standard Template Library info</a>
+		   <li><a href="http://www.yahoo.com/Computers_and_Internet/Programming_Languages/C_and_C__/" > Yahoo's C/C++ Resources</a>
+		   <li><a href="http://devcentral.iftech.com/learning/tutorials/">Various tutorials </a>
+		   <li><a href="http://www.cis.ohio-state.edu/hypertext/faq/bngusenet/comp/lang/c++/top.html" >C++ Usenet FAQ's </a>
+		   <li><a href="http://www.aul.fiu.edu/tech/visualc.html" >AUL Visual C++ Page </a>
+		   <li><a href="http://www.ioccc.org/index.html" >Obfuscated C contests</a>
+		</font></td></tr>
+
+
+		</font></td></tr>
+		<tr><td><B><font size=3>Samples</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="/c/itiutil/gnulib/index.htm" >Gnulib Source </a>
+	      <li><a href="/c/itiutil/premake/index.htm">Premake Source</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- JScript --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;JScript Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/webmaster/jscript/index.htm"    >O'Reilly's JavaScript</a>
+		   <li><a href="/jscript/doc/ref/index.htm"      >JavaScript Reference         </a>
+		   <li><a href="/jscript/doc/whatsnew/js1_2.html">Whats New in JavaScript 1.2  </a>
+		   <li><a href="/jscript/doc/voodoo/index.htm"   >Voodoo's Intro to  JavaScript</a>
+		   <li><a href="/jscript/doc/guide/index.htm"    >JavaScript Guide             </a>
+		   <li><a href="/jscript/doc/authguid/index.html">JavaScript Authors Guide     </a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Samples</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/jscript/samples/netscape/javascript.html">Samples from Netscape	</a>
+		   <li><a href="/jscript/samples/me/fade.htm"       >Background fade					</a>
+		   <li><a href="/jscript/samples/me/mousover.htm"   >MouseOver: Simple  example	</a>
+		   <li><a href="/jscript/samples/me/mousovr2.htm"   >Mouseover: Change images		</a>
+		   <li><a href="/jscript/samples/me/mousovr3.htm"   >MouseOver: java image arrays/browser detection</a>
+		   <li><a href="/jscript/samples/me/popup.htm"      >MouseOver: creating a Popup	</a>
+		   <li><a href="/jscript/samples/me/projtick.htm"   >Project Ticker					</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- Java --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Java Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/java/anfi/Tutorial/intro.html" >Anfi Tutorial</a>
+		   <li><a href="/java/anfi3ddocs/index.html"    >Anfi 3D docs</a>
+		</font></td></tr>
+
+		<tr><td><B><font size=3>Samples</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+			<table width=100% border=0 cellspacing=0 cellpadding=0>
+			   <tr><td><li><a href="/java/bumpmap/bumpmap.htm">bumpmap</a></td>
+			   	 <td><li><a href="/java/flip/flip.htm"      >flip   </a></tr>
+			   <tr><td><li><a href="/java/flow/flow.htm"      >flow   </a></td>
+			   	 <td><li><a href="/java/fract/fract.htm"    >fract  </a></tr>
+			   <tr><td><li><a href="/java/galaxy/galaxy.htm"  >galaxy </a></td>
+			   	 <td><li><a href="/java/lake/lake.htm"      >lake   </a></tr>
+			   <tr><td><li><a href="/java/rot/rot.htm"        >rot    </a></td>
+			   	 <td><li><a href="/java/tunnel/tunnel.htm"  >tunnel </a></tr>
+			   <tr><td><li><a href="/java/warp/warp.htm"      >warp   </a></td>
+			   	 <td><li><a href="/java/water/water.htm"    >water  </a></tr>
+			</table>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+<!--- personal 
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Personal Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>My Garage</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+			<table width=100% border=0 cellspacing=0 cellpadding=0>
+			   <tr><td><li><a href="/personal/JAN18_03.JPG">#03</a></td>
+			   	 <td><li><a href="/personal/JAN18_04.JPG">#04</a></td>
+			   	 <td><li><a href="/personal/JAN18_05.JPG">#05</a></tr>
+			   <tr><td><li><a href="/personal/JAN18_06.JPG">#06</a></td>
+			   	 <td><li><a href="/personal/JAN18_07.JPG">#07</a></td>
+			   	 <td><li><a href="/personal/JAN18_08.JPG">#08</a></tr>
+			   <tr><td><li><a href="/personal/JAN18_09.JPG">#09</a></td>
+			   	 <td><li><a href="/personal/JAN18_12.JPG">#12</a></td>
+			   	 <td><li><a href="/personal/JAN18_13.JPG">#13</a></tr>
+			   <tr><td><li><a href="/personal/JAN18_14.JPG">#14</a></td>
+			   	 <td><li><a href="/personal/JAN18_15.JPG">#15</a></td>
+			   	 <td><li><a href="/personal/JAN18_16.JPG">#16</a></tr>
+			   <tr><td><li><a href="/personal/JAN18_17.JPG">#17</a></td>
+			   	 <td><li><a href="/personal/JAN18_20.JPG">#20</a></td>
+			   	 <td><li><a href="/personal/JAN19_05.JPG">#05a</a></tr>
+				<tr><td><li><a href="/personal/JAN19_10.JPG"	#10</a></tr>
+			</table>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+--->
+<td width=50% valign=top bgcolor=#ffcc99>
+
+	<!-- Project Mgt Resources -->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Project Management Crapola</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		      <li><a href="/project98/usrguide.htm">Project 98 Users Guide</a>
+		      <li><a href="http://umweb1.unitedmedia.com/comics/dilbert/career/bin/ms2.cgi">Dilbert Mission Statement Generator</a>
+		      <li><a href="http://www.zdnet.com/computerstew/">Computer Stew</a>
+		      <li><a href="http://urbanlegends.miningco.com">Urban Legends</a>
+
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!-- HTML Resources -->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;HTML Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		      <li><a href="/webmaster/html/index.htm">O'Reilly's HTML Guide </a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!-- CGI Resources -->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;CGI Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="/webmaster/cgi/index.htm"   >O'Reilly's CGI Programming </a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Samples</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/cgi-bin/fileio.pl" >File I/O</a>
+		   <li><a href="/cgi-bin/test/test.pl">useless cgi test</a>
+		   <li><a href="/cgi/test.shtml"	   >SSI test</a>
+		   <li><a href="/cgi/form1.htm"     >Sample Form #1</a>
+		   <li><a href="/cgi/form2.htm"     >Sample Form #2</a>
+		   <li><a href="/cgi/outlook.htm"   >Sample of good page</a>
+		   <li><a href="/cgi-bin/f.pl"      >current CGI tests</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Other</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="/cgi/macromedia/a.htm">Macromedia Sample #1</a>
+	      <li><a href="/cgi/macromedia/c.htm">Macromedia Sample #2</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+
+	<!--- Apache --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Apache Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="apache/index.html">Apache Win32 official docs </a>
+	      <li><a href="http://www.apacheweek.com/">Apache Week</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- MySql --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;MySQL Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="mysql/mysql.html">MySql doc main page </a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- povray Resources --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;POVRay Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="/povdocs/povuser.htm"   >Povray 3.1 Reference</a>
+	      <li><a href="/povray/doc/povray.htm" >Povray 3.0 Reference</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Samples</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="samples/xport-fs.exe" >TrnsPort Commercial (full screen)</a>
+	      <li><a href="samples/xport-win.exe">TrnsPort Commercial (window)</a>
+	      <li><a href="/cgi-bin/pv.pl"       >Perl/Povray Sample</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>My Animations</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+			<table width=100% border=0 cellspacing=0 cellpadding=0>
+			   <tr><td><li><a href="/smacker/A1.exe"       >A1      </a></td>
+			   	 <td><li><a href="/smacker/Blobs5.exe"   >Blobs5  </a></tr>
+			   <tr><td><li><a href="/smacker/B_SPHERE.exe" >B_SPHERE</a></td>
+			   	 <td><li><a href="/smacker/clovanim.exe" >clovanim</a></tr>
+			   <tr><td><li><a href="/smacker/Donut.exe"    >Donut   </a></td>
+			   	 <td><li><a href="/smacker/ebs_anim.exe" >ebs_anim</a></tr>
+			   <tr><td><li><a href="/smacker/nagelwav.exe" >nagelwav</a></td>
+			   	 <td><li><a href="/smacker/R1-2.exe"     >R1-2    </a></tr>
+			   <tr><td><li><a href="/smacker/t5b.exe"      >t5b     </a></td>
+			   	 <td><li><a href="/smacker/t5b_fs.exe"   >t5b_fs  </a></tr>
+			   <tr><td><li><a href="/smacker/t6a.exe"      >t6a     </a></td>
+			   	 <td><li><a href="/smacker/t6a_fs.exe"   >t6a_fs  </a></tr>
+			</table>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- Misc --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Miscellaneous Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Misc</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="http://www.snap.com">Snap.com</a>
+	      <li><a href="http://www.cnn.com">CNN</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Science</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="http://www.cnn.com/TECH/">CNN.com Tech</a>
+	      <li><a href="http://dailynews.yahoo.com/headlines/sc/">Reuters</a>
+	      <li><a href="http://dailynews.yahoo.com/headlines/science/ap/index.html">AP</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Sports</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="http://www.gatorsports.com">GatorSports</a>
+	      <li><a href="http://www.uaa.ufl.edu/sports/Football/football.htm">UF Football</a>
+	      <li><a href="http://www.cnnsi.com">CNNSI</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Hardware/Software</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="http://www.pricewatch.com">Pricewatch</a>
+	      <li><a href="http://www.zdnet.com/computershopper/">ComputerShopper.Com</a>
+	      <li><a href="http://www.gw2k.com">Gateway</a>
+	      <li><a href="http://www.download.com">Download.Com</a>
+	      <li><a href="http://www.shareware.com">Shareware.Com</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Consumer Links</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="http://www.amazon.com">amazon.com</a>
+	      <li><a href="http://www.buy.com">BUY.com</a>
+	      <li><a href="http://www.dvdempire.com">DVD Empire</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Games</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="http://www.crisium.com">Crisium (Stars! SG)</a>
+	      <li><a href="http://www.gamesdomain.com">Games Domain</a>
+	      <li><a href="http://www.zdnet.com/gamespot/filters/0,10850,6013054,00.html">Game Spot</a>
+	      <li><a href="http://www.gamecenter.com">Game Center</a>
+	      <li><a href="http://www.gamesmania.com">Games Mania</a>
+	      <li><a href="http://www.gamepen.com">Game Pen</a>
+	      <li><a href="http://www.avault.com">Adrenaline Vault</a>
+	      <li><a href="http://www.pcgameworld.com">PC GameWorld</a>
+	      <li><a href="http://pc.ign.com">ign</a>
+
+
+	      <li><a href="http://pc.ign.com">IGN</a>
+	      <li><a href="http://www.pcgr.com">PC Gamer</a>
+	      <li><a href="/Games/Stars/ssg.htm">Stars Strategy Guide</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!-- Computer Stew -->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Computer Stew</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Episodes</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		      <li><a href="/ComputerStew/cs0200.mov">Episode 0200 (Apple Quicktime)</a>
+		      <li><a href="/ComputerStew/cs0225.mov">Episode 0225 (Apple Quicktime)</a>
+		      <li><a href="/ComputerStew/cs0226.mov">Episode 0226 (Apple Quicktime)</a>
+		      <li><a href="/ComputerStew/cs0227.mov">Episode 0227 (Apple Quicktime)</a>
+		      <li><a href="/ComputerStew/cs0228.mov">Episode 0228 (Apple Quicktime)</a>
+		      <li><a href="/ComputerStew/cs0229.mov">Episode 0229 (Apple Quicktime)</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+
+ <!--
+	<tr><td colspan=2><B><font size=+1>Other<font size=-1></B></A><td></tr>
+	<tr><td height=20><spacer type=block height=20></td></tr>
+ -->
+	</table>
+	<tr><td width=50%></td>
+	<td width=50%></td></tr>
+	<tr><td height=20><spacer type=block height=20></td></tr>
+</table>
+
+<!-- Bottom row menu -->
+<table width=100% border=0 cellspacing=0 cellpadding=0 bgcolor=#000000>
+	<tr><td height=25 align=left nowrap>
+	<font face="ms sans serif, geneva" size=-2 color=#FFCC00>&nbsp;&nbsp;
+	<span style="color:#CCCCFF">
+	<a href="/cgi-bin/fileio.pl"><font color=#CCCCFF><b>File IO</b></font></a> | 
+	<a href="x"><font color=#CCCCFF><b>Remote Exec</b></font></a> |
+	<a href="mailto:craig@infotechfl.com"><font color=#CCCCFF><b>EMail Me</b></font></a> | 
+	<a href="x"><font color=#CCCCFF><b>Check Mail</b></font></a>
+	<td align=right>
+	<font color=#ffffff face="arial,helvetica" size=1><b>
+	
+	Last Modified Friday, December 13 2002
+	</b>&nbsp;&nbsp;</font>
+	</td>
+	</span>
+	</font>
+	</td></tr>
+</table>
+
+<!-- block under menu -->
+<table width=100% border=0 cellspacing=0 cellpadding=0>
+	<tr><td></td></tr>
+</table>
+</body>
+</html>
+
+Connection closed.
+Accepted new connection.
+Accepted request:
+GET /images/home1.jpg HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Host: craigf:8889
+If-Modified-Since: Wed, 10 Mar 1999 18:00:28 GMT
+If-None-Match: "0-1548-36e6b33c"
+Referer: http://craigf:8889/
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.0.3705)
+
+
+.
+
+Modified request:
+GET http://Craigf.infotechfl.com:80/images/home1.jpg HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Host: Craigf.infotechfl.com:80
+Referer: http://craigf:8889/
+User-Agent: TrnsPort TestSuite-Relay/1.0
+
+
+.
+
+response:
+ÿØÿà JFIF        ÿş .Handmade Software, Inc. Image Alchemy v1.10
+ÿÛ „ 		
+ $.' ",#(7),01444'9=82<.342			2!!22222222222222222222222222222222222222222222222222ÿÀ  d È! ÿÄ¢          	
+       	
+   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? õ*+Ö3
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+	ÀÉé@¤¼U$ İïÚ£ûT‡Ğ~åVÌ%Íj{w:¡‡V¼‰å¿ˆS«‡VØ\gµ|“ÜŠ´yUÖÃ¨®ó ¢€
+( £¸÷â“i+°Jä†9É¨ë>!WM¥kT¦àÂŠè3
+­¨Zivr]ß\GooË;œş'Ú†ÒW`XWWEe «‚;ŠZÎXTWƒ¹RƒáEhHQ@fÜÜ™X¢Ÿ~µÃ«ÉO•u6¡ÊıgÄ0Ó|1ı¥š[—Ş<n>çĞ{ÿ :à¦øÅ©™‰ƒL´H³ÂÈÌÍ¨#ùW•
+\ÊìéK;#¢ğ÷Å?Q¸KmRßì9
+²‡İ>üeQî+½¾Ôí4­>[û¹Ö+x—s?_ËÔŸJN2§$ĞÔ”£©[Â-ÓüY`ÓÚ6Ù¢m²Âü2úzş·jß¯¢„¹â¤yíY…@P^yñ#ÆáÍCG³ƒ,Şz]Ü(<´JÜ/âAÿ ¾kCµ6T>$v:OŒ4=qbşÎ¿ydPŞJòè?ÚÃSÅiW&]NQŒ›êmˆ’mX(¯Dç9ÿ x|% DÚµË´‚$@p7NXöÇ½|óâj&½ûN¥rÒŸ.!ÂF=¯S\Xªüˆ¸.§Ñ½‡„ô›ïknsóƒúƒ[U~‘—©¦#tW `P{Ù|«fÇVàW3®jÉ¢h·Zƒ€Æ%ùŸ¼Ç€?3^6`ùª¨”4ƒgÏ:…åÎ¡}5åÜ†IæbÎÇ¹ÿ 
+»áßê'ÕÇOŒÆé$c…s÷‰ÿ &œ#v¢Œ›êÏfÓ>ørÖİVûí³`ns!sìú“PxÇá´×úµ¶‹{q¶È*ÊyrôcĞõÆr;q]ÒÂÇ—MÌÔÙÍ|$Ñ5+Oß]\ÙÍP@ĞHdq!*vã¹À'òõëíí¨A2Ü2À‘È¯èìJí'é†üëÊ©9ÓÇ]8©GS–ø‡â×ğî“hÖ2©ºšàcüAaøğ§êk°±»P±·¼‡pŠxÖTÜ0pÃ#?tá+{*2“3«z‰†8€kŠ8ŠŠ|÷ÔİÓ‹-ˆíc‘-Õn
+¼£;™zkÉş2éš{K¥j)[×“ìâ,gÌŒ“í´·ş=]tjÊ¬gÌÌ*AFÖG¤iÑt;éz|vÍ0B¤œã8êO­Z¹º‚Îİç¹™"…YÜà
+èÀT” ùÄWŠMX’2Ä²4l›¹
+İ@÷µH@ô®:¸Ú¥àì¡F*6g?©ègÄ+}§ëQÅ&˜Z7µò˜«‚İ»ß>«Ä>$xnÃÃ!‚ÓMYÚ¬¤HûâÌá€)<DªÔ»%ÒP‰éµ³màûKmBÖâÖ+}ÿ éwc‰”±a‚Ä×
+Ô“â&“q«A¥hûµÉ›h+òÆ¼d’ÇĞsÀ5×B^Ârë©œıö’:a4€ÅIïRG8b¸'¡¬èãæêZ{?À¹ĞJ>îäÔW¬r™ú£`D¾¹5çŸØŸÀƒ8k¥ÏÓkW‡ŠwÄ¿—ävÓşä²@Š÷O…:"i^K¢£íÎevÇ;A!GÓ?ğ#]xEyœõ6;š+Ñ2"› s\GÄıZ]7ÁÒÅnåe»A¹z…Á-ùÆ¼L^¸Ÿ¸ì¥¥#Î<#ğßSñ&›¢n"·²ip«&w:ƒ†eÀö z‘Û­{ü1¤$Q¨XãPª p à
+x˜¸R^b£¬™äş$Õ|OãOİè‘à²°cò¤¾XfÎ	fã €¦k$Åã†óÃ¨]N÷zh	Qg2DÙìAåIÏiÃİ.k*ùíÖĞê:}½í»n†â5•±äÿ p·^rØ§Ïlsg…øgòüË­Ğöx¯³ñŞ8ø«kj²îÑleibˆ•Ê‡>¹lè?ÍòÑ’C¨¯8£®ß^éú5ÕÖb×·q¦cN7ë¸œ`WÏSüCñq¾3I¬\$ŠÜÆ*b¸ÇçSJ•ãÌĞT›NÈö xĞø·K—í(‘ßÚ•Y‚tps†¶pxö®ŠmM¼Ô"¿¹±‚k¸WlrÈŠ“Æzu5¦	bXU•éÜù»Äş&¾ñ&±=İÄîb.D1vÆ€N¾¦µ¾ÜAoã›_8€dãŒŸïÇç‚?Ò«rM™CFVñ ñ;YÚŸÈ«(—÷Ã	¸ƒÓïñŒõÿ õÖÇ†SZm5ÄAâœ~åÃŞ8à§ÿ Z§	ATiöÜÒ´Ün»›´W¶q™Úªü±?`Hÿ ?•qş0Ó[TğôªŠZXXL€wÆsú^3LC~‡m-iØòF·>•ï>¸KéÛphb`B¤ğ?u`Ÿ¾×‘…U¡ÑÕA©Ø›³iö¨…À ùLØb=@=GÒ½	N1i7¹’M«¢Kƒ¿y—ÅÇ'OÓ?)•Éê@âkÆÅ¼¿ë¡×OøGsàû_±x;Gƒ k=HÉşu¬š×0ø!ıv'»0ü§7ÃQG°,²M,²ã»¯áøV¾¥g£¦ÜÙÜ(hg‰‘ÁÇB=ëÒ¦¿v—‘Í/ˆÉğ2<>ÑUø&Õğ##ô"¸/'A`y|ä:ñğÿ oúêuÕÚ'«Ş±7m§ËlãW‚ü añÈF`¶²"ƒÜğÜ~
+k
+‹ŸÄ&¼ã—ŒRâÂ»e•ğ1—©?İFÏèÌ*ÿ —àÓH<Wx,Ù6ãØéë^çÉ5•÷¨ÿ ]—ğYó¯¼wábY–&}6âBĞÌBäçcÄ~¿9H'–Úxç…Ú9c`ÈêpTA­*C–M3$ô¹í~ø•c«Ã®«$v—ãåÜÇÊ}Aè	ôü½+½Šå¢>«ÜW$%*‘Ó¥HXĞ2‚:E-}
+wWGÌ>|sĞûÖ	«pEy”-%3¯-9}[Áv×’4öN ‘¹(GÈOô«ŞÓµoÏ$RIo-Œ§,ÎU½G¥sQ¯ìä¤i:\ÊÇW-ãÊ0ÕôÄüC}*\ŞJ±Ş)Å¾ß¾üò1Ü{öüyU+JµN`PP…‰>ëÓë:$±Ë#:ZÈ6pw`Œàøÿ =«âÜŸHœ1>œìÿ 
+M·VïúĞ?åŞ‡¨hjÃújŒàZÄ9ÿ pTò|®}z8ø^Š}Œ0ïßhXYc] `dŸÄœš'Ù<DK êT•88>†³§ŒhÙüKB¥A¹ß  XÑQ TPĞ
+òŸ ˜t#Æ3?oúç\ø_†/ÌºİUK£/?|Õn÷^ñÂ™T™tû‚7§C÷”şµŞ2ş»…Wf£ì¯àÔ, ¼µ”IÈw¼óÇ^Ö<Wâ!İš[¤)håƒ 2Npy$ı1E*îœ\ÅNŸ;Mşğ¿„¬%dó®§ Ë.08è·&º«s—o¥VWÄEŠ¢µ6Ç­4‹ùtTÒáÔ¾Aö9Ç–¤ÿ 	\İ‰¯šõm`®cö´HVÑ¹`¤öó]ØšªNÖØæ„NÇZøU{mcm.”âæuŒˆ™‚’ŞªOíƒéï]§€ìõ;ÃÂ×YÈhÜˆœ3,x³œ{W:ŠQó:£yå¡&Õ3ïüêz÷h
+>ˆâŸÄÂªİY%ÏÍ²zúıh­IUƒ‹MÂW3Æâ3÷7U9¦˜fPI†Lšñ%„­nS¹UƒW¹ÏêÚÎ³
+yz?‡o®§nI¢1Æ=ÎpOé\…¿Ã_xŸTûwˆîVÕ;·8wQÙUAÀtĞÁÎ÷’±…J©èPÒ¼3e X¥™ÇåØŸ™ÛÔæ¹oø7Wñİ“Ø¬"F^M¼’=ª§ƒ¨ê¹G`UcÉc¿´ˆÃgM÷’5SøTÆ^Æ½*”Ôààúœñ“‹º+˜¤SÓ?JGŠs˜Â‰6ºg¶}«Æ«Ÿ+Zw;]xòİiß®•h5¦ğB‚r¤_wO|×'ñ+Â§Š ÓMn¶2y†Y6ıí¸Çô5ÓG	R
+WêcR¬ek¤PÈ± `
+ ×%ã_é^0…gö}F%Ú“0ëµ‡§^{sÖ«…”#(Ï­…V¢•¬cxKÃŞ3ğ«5ª}ƒPÒÙ‰.ví'©RW#Ütşu¹âé¾;}N+”¹’/4EW8ÉCc’sWÁÎ>ñ¥:ÊÖf‡|wuâ¿¥µ¬o¦ÃÈÊÜ³ ,{rzÿ W£ZÊßJÎ„ykÅ9sSlò¿|+¿¹Ô§Ô´óÖv2Im,¸`ääí'‚¡5É[xÆÚmìW6úTñÏîGIPà£tşuİW.gets©£×t;İbòÔ[F¸²º\ G>£‘øşu¶–S;a—j÷&¸–
+«•­¡Óíãkšh‚4
+½ À§W¸’JÈánîáE02¼A«>¥\]ÇÈÑÄòcÁ*3\½¯o&ğeÆ¸öp	#‘•#¶6ŸÄšâ«Šp›Š[XÖ4ÓI/‡õ“ªxnÓU¼ò`3!v°ª2{ŸaZ0^ÚÜÂf‚æbS‚èà€}È®¨ÔM+½LÚdkªiì#+}lÂS¶<J§yôóRÛVºû(¹„Üc>Pq»N´*{0å}‚âöÖÔ¨¸¸Š-Ç{…ÏçK5Õ½¾ß:â(÷tŞásùÓçºìbÃsÈ>LÉ&Üd+d¯¥Fúœr:=ÔJÉ÷²àcØûûRö·5ôW{XYo­ …%’æ%C„bÃç>ƒ×¡éNŠòÚy^(§äÑX¹ Œ¡ñ£ÚBö¸r½ìEm©Xß3%µÔSíÈ;p÷é^â-óáÿ Œ£Õ µi4¿<Éòí=c'±Á#¢¹±)T…âïbáx½OaÓ¯­5/¬™Z	”22ù}AÏã\Î«ğ÷IÕµ/®n/i[.^Mÿ @28¼hÔ”)ÚãjkhÓ<=¥„;ZLo‘Y±ĞfºK$!‡øºWN	9×Mô3­hÓ±jŠ÷ ¢€
+( ¢€9o^ZÙé2É{Ml±âHÓ«`¸ê+ŠÕå´o†fkÚÚç»W÷¸=ÏR¤ıx¸„İi4ôºıÈ5È‘£e{siâMÃqÊÈ[ƒ,­†fù[
+3À¯ëK;Ç×[±Kbn&zd63Ãõ5‹^ç=õwı
+O[vuY[áĞÖ®’&>cÄ†0
+ÈU0=ˆ§ª¤_øq÷î¸Y×s• œÄÅºtÎ:Uªj™tkñW3’³/Gs-ì—›.¬¥‚6ÜCº5ÀÈc»§$b¤·sa¥Û-Ó¯’'*Ìš\!ÏĞ~”á	8ŞJÉÛç®àä¯£Õ‘¦ÑÄu{itjÁöœö?)üvŸÀUy§²·Ó‰,†A"Æ#ï¹˜`cñÏë[:pmÁì¹­øÌô’İØˆE»^óîHGh‚&c€„³ïÇ¡8Lı`ë:›ßèŞ'R/Ùá>Lw
+lO0ç¾2üÿ …gË)}«¯ºÃ»Û¦¦”‘GÓ¬­õK(–EXmğ7È  §-ĞŒöëõÓ´ÜÚù7p¤¨Ã’(`~ ñ]É6ÚÑ¢+µÜÎ´ğÎ—§Ìòiğ1!ËÇb6>»>èü «GOÏI5­+`!QóEØ˜WqVzÆ59b_Û «@``VØ|<h«-È©QÍêWAE PE `ø›Ãğ’Y½«]›xÜ(%Sqá³ê+>ûÀv×š®·³Ekß›h.Àdz“é\rÂsI¶÷fª­•¬h·…íàc‰
+UãóúĞ³‰/'awyşºá¾f8( =ãµÀE_]öò)×nÚ¿ƒl[ÃQh)4ËiÚIÁf÷}Î{w­ŞïQµ¼™Üµ«EìNÒ¼úğMkõXß~©ıÊÄ{V1ü;c%çÚ^(ÚLcsFcÓ5¡n‹%¥”0§’ØŒÇ· '9ãè+xHÓƒWİ¯ÌÑUr•í±~ÇN·ÓãÙ*¯`ªÀTo£Ú½Èœ ó Â¶Ñ¸}ã[<Ø•Y©6TÕ Ôbû#[´„2K$Ÿ÷àtşşx~ÒùLæÿ ìåÈáŠ@yûÇ©'Ş¹¥Mıf1¶Öû‘¢—îÛ¹¦úM£Ì’y`2p¼>‡µ] ( tİG
+M¸õ0G$“ŠÜ€¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+(ÿÙ
+Connection closed.
+Accepted new connection.
+Accepted request:
+GET /images/xh.jpg HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Host: craigf:8889
+If-Modified-Since: Fri, 19 May 2000 20:23:22 GMT
+If-None-Match: "0-dfa-3925a2ba"
+Referer: http://craigf:8889/
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.0.3705)
+
+
+.
+
+Modified request:
+GET http://Craigf.infotechfl.com:80/images/xh.jpg HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Host: Craigf.infotechfl.com:80
+Referer: http://craigf:8889/
+User-Agent: TrnsPort TestSuite-Relay/1.0
+
+
+.
+
+response:
+ÿØÿà JFIF  H H  ÿÛ C 	!"$"$ÿÛ CÿÀ  d …" ÿÄ           	
+ÿÄ µ   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùúÿÄ        	
+ÿÄ µ  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? úŠ(¯¨1
+(¢€
+(¢€
++Å-ğ×†bß®ë¶g ˆÙ·JÃÔ"åˆã°®ütğŒºµ¾ag«Ş4ó$K2À©ÜÀgç`ÜgÒ±"•7iI&TiÊZ¤zQ[x×ÄÒøCÆ×z^]FŞÔ ’_µùM¹”1ÇÊÀ€ÜƒV|/û@ø#T•-õ_µès1À7)º/ûís© {×‰üKí‰%bÛößÊ™Æ>ãlÇáŒW!}`?-|ä³JĞ«%{«Õ"à™÷~}e©YE}§^[ŞZÊ3ğH$ÆqÀyb¾ğ‡‹<Qà=Kí¾Ôd†2Û¦´rZŞ~Ÿ}:g†v"¾²ø;ñODø‰§2Â¢ÃX€fçOwÜÀ}“‘Î2t'ÕÂã¡_M™ÇR‹èQEwQ@Q@R;*#;°UQ’IÀÖ€ ÔolôÛo¯îbµ¶…wI,¬T{“^ñã¯«Ü=‡„^]6Àe^è¨ó¦÷_îLsôéY|osã]i¬¬ädĞ­$"‹†y­ıaîMsö6 ¾o0Í[n'eÜõ0¸+®i˜ãOy¥yçg–Yçw%™©'­-Õ¤–¶²ÜÀÍ±!tu8*Àdzë­ôâ@ùiš¾–N“v1ŒÀÿ ú	¯TnG¤é%†øEã/Ÿøpİø³[–ÖãU·[ˆçÔehİŠ¸Á}}+î:øWám£Ç«xjò1†Kè$SâPkîªûL|®çÊS•Û>2Ô$Kïø†dË,š…Ózÿ ®j¯}kŒñIáX®?á0Ôàº€Á?ÚîƒÄWnÃæ1Æ+oT¶ÚOò5ŸïYô´Ué£…Ôm†‹g©øw[¶Öô[¹,ïí_|RÆp}Áõdx k­ÔbëÅs:¤ ƒÅiJm;£
+°GÚß¼{cñÁĞë6Ê!»Œˆo­ÿ ç”ÀqÉùNr§ÓÜì«â/Ù¯Æ2øCâµ”³²išË¥¥ÊòqŸL3c>ŒkíÚúÌmNïsÉ©VQEuQE å¿´O‰ÿ ²ü5‡íd"óUÊÉá€}ÿ Ìá~›«Ô«å¯‹ú¤šÏÅ=Qœƒ‰[(F:*}ïü}œş5çfuİÛ½œ%>zŠıM&Ô £Õiv;±Åei·Šî4`Ûx¯‹“>Ğ’ÃIÜËO×4‰zåFŞCÈÏğšé&¼Ò4KHnu{Ølâše‚&ã|„z’üª–¿â¯KáİDEâ9›ìÎ¡|Ü3§ dş âˆFOT‚s„SM«1ğÚÂ8´_ßÌU#O*Wv8
+I=«éİ;ÆŞÔ¯c²Ó¼] ^]Jq0jPÈî}†$×‚øCL2ü$ÒÕbËÉ§`.1’A÷¯´ğo4mBßP†ÒK;«iVheIãÜ¤GÍÔW×Ò®é-î|E¤åv}£ã‡Vî½¿db³Ô•Ls¶ß–áHÀ-â½Ç ÇÍ^&ñZ[ßÏi•s+Åu%³Ê ur‡>ƒ"¾¦øã/øWMÔnî--5	ãqjg]ÑÊœã<b=k•ø×ğÊ/Búö‹
+Ç¬Ä¤ÊŠ1öµ `öÀ¿CÛÀB²öÔÖ¿™ëá±RŠPoCç½Ir	õ®cS^w×^ñ,éûŸêòğ>å”‡ù
+Ï“á·/säxWSçşzEåÿ èX¯
+h¿¸ï«8÷<›Se	¯Ğïkğ‘ø+F×ˆï¬¢@:+•‡àÙòm¯ìóñ'T•DöVbË]^)ÀúG¼×Õ_|7/„|¤ør{±w-Œ%`K8Ïaœa_A–Ó©ù•‘åÖiìttQEzÆEP_+üIğ¾¯áojÆ¶Ca©HĞ]yêQÚFgÉÈlg¨ìz×Õñ—ÆGÅ÷‹õm;T¿¸+-BU‚Ø¶"U˜.Ô}ÜsÉ÷¯+69SJ}Îœ4çÜÎ“A‚´R¤‹ê¬¯Ağó¯Ë_2ÙØ­¼¿¿´±à¸?vşxÁ@—ÚŒaNq£:É\zWıÍğÍ?Û>ÏIÓhõïŠR?‚qâ8F1‘Ì2×ey{oiiçL$)œ~î&şJ	¯#±°´¼¸°¸½ÔµK¦±¸[˜{Æ‘VE†ÏbkÑ4½]LóõÛNÂaİõhòëÔ†a‹®“ĞÏÖõ›C´]¥¤¼ãµçúõİµÁ•b|¼xŞ„eÈÈÈ<ŒG­z>¯©æ¯ñÙuƒÆÆ>~›?Æ³ÃceZ|­ãrºxj\ñ“gœxåKxªóh'îtÿ pU}"óWÓ›u¡uf3ŸÜÌÉÏ¯Ê}…v:Ì‘´ŒûWqêqÉ®jìI!;›è3]mYÜá„ÛI$uzÆOˆº‘´>*½ºÌW§í
+Ã=	|>„C_mx7U}wÂ6¹$Kê6]²/E2F®@úf¿:äÓî\åÂB¾²6?úõôWìsâ~çÄwŞ“X¹¿Ñí´ÿ 4G6Y etTT'•-Àãé]8LWï9½Î¨Ò’ÙôıQ^¸‚Š( Š( ¾[ı¡ô‡Ñ~'I¨,N¶º´+:>0¦E$P{ûâ¾¤®ã¯ƒ_Æ
+‘l£ªX1¹³ã— |Ñÿ À‡ê¸±ô=½–ëSl=Og4Ï4û‘´È­›e°—u´œçç‰Oô®L¾G85»k{Àæ¾6Qh÷¡4Ñ¡âëÈ4tÑ®4è’ÙŸRvdFGßœl
+ÖÄòÙÅ$ĞÅö‰acó6nük—Ö ‹W·¶ŠiŞ1ÂÎ¥q÷”?AqlbİnÉ*¤€S¯ZîÃ×¦©{:O'…«*êµ++×¾=Öïxf@1Éûtf¸;«ÛÛÏ]ë6mj“Àa•_mî>”–ºÏÛmã¥ø#Ğ÷«÷60óºgoÒº9(áÚhåU1XÈ¸¶¬‡Û˜ÉdhÑ˜“’G½fßJª JšIDH~UéšÄÔn†5Æıé6zQ÷)¨öF~«6r3_P~Äşk?
+jş&6VÔ®/8³’§Ğ³Ü¯š<#áıSÆ>*²Ğ4ˆ¼Ë«¹6‚~ìkÕ½FIúz×è7„t+/øgOĞ4åÛmcÄœrØêÇÜœ“îkÙË(·>w²8«Îú”QE{‡0QE QE QEóÇíğ²â‹øZÙäW&MJÎ%%ï2ÔxÀ½qáÖze5}ñ^9ñSàF‹âiî5ÜX”—eÆm¦oö”r„ÿ y}ÎÒkÆÆå¾Ñ¹Óß±×Gá£>zÿ ½M»¾Í¬£?À•AâïxÓÁó¼zöƒyI“ö¨ĞÉÜH¹¨®~Öñ¯®"³ŠDY'q—l(,p2{kÄ•	FVhíöé£+Fœ¨HóÒA]UÍï^k¢ñ/ÀxOÃ×~$Ô¯´'´±I£†âF¨`2Œ×Ö¼Ò[ç•¶Æ‰ì+¯JJII8GÈ¥æhŞŞŒk6ÚícRƒOÓ­¦ºº¸qPÄ¥™Øô 
+ô/|ñÿ ‹åŠy´æÑ´öaºæıJ¹ä¬gæcÜpõ¯©¾ü)ğ×Ã»Bl#kİNQ‰µ	Ôy„uğ/°çÔ+l6u5z!Ô¬ŒÙïá5¿Ãİßêiş"¼Aö‰[§_)ş„GR= ¯V¢Šú
+tãN*1Øäm·vQEXQ@Q@Q@Q@sš§€üª\‹«ï
+èó\ßçDnõÜZ(¤â¥ºkT°³Õ4ùôıBŞ;›K„)4N2®§¨#¸¬İÂ>ĞJ¶áİ*ÁÔ’TVÉàüÀgµPâ›½‚æİQLŠ( Š( Š( ÿÙ
+Connection closed.
+Accepted new connection.
+Accepted request:
+GET /images/dancer.gif HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Host: craigf:8889
+If-Modified-Since: Tue, 26 May 1998 19:38:54 GMT
+If-None-Match: "0-31e-356b1a4e"
+Referer: http://craigf:8889/
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.0.3705)
+
+
+.
+
+Modified request:
+GET http://Craigf.infotechfl.com:80/images/dancer.gif HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Host: Craigf.infotechfl.com:80
+Referer: http://craigf:8889/
+User-Agent: TrnsPort TestSuite-Relay/1.0
+
+
+.
+
+response:
+GIF89a  ¡  ÿÿÿ      !ÿNETSCAPE2.0èÿ !ù	  ,      .Œ©Ëİ ‡ÊdC¾&o®E 6*ß¥j©±È9Â Œ¶.E?ëñ{Ù‹yr®@ !ù	  ,  	  Œy×#ZH9Ë~™Kê-!3‰¤y¦·~bS  !ù	  ,  	  Œy×#‚éM…ğeÎÊ5œØxœy’!>hi !ù	  ,  
+  Œy¼ÑĞ‹µD£Âv÷€a5*åç •z…š{Q !ù	  ,  
+  Œy¼èV3“"åRÓu?û6’’xV’š…JU  !ù	  ,  	  L€¦°zŸCÌš5¬Û*}à”Mœ%©ÉeP  !ù	  ,  	  L€¦°zŸCÌ™zÕöá,EIèuÇÇMàR !ù	  ,  	  ™ ÜZÈ¸%3»ë)m •aæé‰# !ù	  ,  	  L€¦°zŸCìTCÕò¦wYIvóaÆ !ù	  ,  	  L€¦°zŸCÌ™j_Z›VløMæunR¶ !ù	  ,    ŒyxĞo\\IÂ¦`¶ÎN€ÌÂ€uq‘$†A !ù	  ,  
+  ŒyÈ“2ÒÍ-êmşQáãaäV–âÚ¨œw !ù	  ,    Œ ·ÉîÀC-.©$Evÿi!¸‰ihæ´&X[  !ù	  ,  
+  ŒyÈ­y2Ù5±•8÷Àu¡~”Ø¤#*Q  !ù	  ,    ŒyxĞo\\I"1µ—ÏõQŒÈY&4šT  ;
+Connection closed.

@@ -1,0 +1,247 @@
+Status: 200 OK
+Accept-Ranges: bytes
+Client-Date: Thu, 06 Feb 2003 18:45:06 GMT
+Client-Response-Num: 1
+Connection: close
+Content-Length: 11176
+Content-Type: text/plain
+Date: Thu, 06 Feb 2003 18:45:06 GMT
+ETag: "0-2ba8-3e3ac0dc"
+Last-Modified: Fri, 31 Jan 2003 18:30:52 GMT
+Server: Apache/1.3.20 (Win32)
+
+<?xml version='1.0' encoding='UTF-8' ?> 
+ <!-- Generated 07/20/01 by Microsoft SOAP Toolkit WSDL File Generator, Version 1.02.813.0 --> 
+<definitions  name ='ObjectStore'   targetNamespace = 'http://tempuri.org/wsdl/'
+	 xmlns:wsdlns='http://tempuri.org/wsdl/' 
+	 xmlns:typens='http://tempuri.org/type' 
+	 xmlns:soap='http://schemas.xmlsoap.org/wsdl/soap/' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema' 
+	 xmlns:stk='http://schemas.microsoft.com/soap-toolkit/wsdl-extension'
+	 xmlns='http://schemas.xmlsoap.org/wsdl/'> 
+  <types>
+    <schema targetNamespace='http://tempuri.org/type'
+      xmlns='http://www.w3.org/2001/XMLSchema'
+      xmlns:SOAP-ENC='http://schemas.xmlsoap.org/soap/encoding/'
+      xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/'
+      elementFormDefault='qualified'>
+    </schema>
+  </types>
+  <message name='COBSObjectStore.GetObject'>
+    <part name='bstrObjectGUID' type='xsd:string'/>
+    <part name='bstrSerializedObject' type='xsd:string'/>
+  </message>
+  <message name='COBSObjectStore.GetObjectResponse'>
+    <part name='Result' type='xsd:int'/>
+    <part name='lpObject' type='xsd:int'/>
+    <part name='bstrSerializedObject' type='xsd:string'/>
+  </message>
+  <message name='COBSObjectStore.ExecuteSearch'>
+    <part name='bstrQueryIn' type='xsd:string'/>
+    <part name='bstrSearchHint' type='xsd:string'/>
+  </message>
+  <message name='COBSObjectStore.ExecuteSearchResponse'>
+    <part name='Result' type='xsd:int'/>
+    <part name='bstrResultSet' type='xsd:string'/>
+  </message>
+  <message name='COBSObjectStore.GetLastUpdateTime'>
+    <part name='bstrQueryIn' type='xsd:string'/>
+  </message>
+  <message name='COBSObjectStore.GetLastUpdateTimeResponse'>
+    <part name='Result' type='xsd:int'/>
+    <part name='dEnvLastUpdated' type='xsd:dateTime'/>
+    <part name='dObjLastUpdated' type='xsd:dateTime'/>
+  </message>
+  <message name='COBSObjectStore.DownloadObjectData'>
+    <part name='bstrObjectGUID' type='xsd:string'/>
+    <part name='bstrFileName' type='xsd:string'/>
+  </message>
+  <message name='COBSObjectStore.DownloadObjectDataResponse'>
+    <part name='Result' type='xsd:int'/>
+    <part name='bstrFileName' type='xsd:string'/>
+  </message>
+  <message name='COBSObjectStore.AddObject'>
+    <part name='lpObject' type='xsd:int'/>
+    <part name='bstrFileName' type='xsd:string'/>
+    <part name='bstrSerializedObject' type='xsd:string'/>
+    <part name='bstrObjectGUID' type='xsd:string'/>
+  </message>
+  <message name='COBSObjectStore.AddObjectResponse'>
+    <part name='Result' type='xsd:int'/>
+  </message>
+  <message name='COBSObjectStore.RemoveObject'>
+    <part name='bstrObjectGUID' type='xsd:string'/>
+  </message>
+  <message name='COBSObjectStore.RemoveObjectResponse'>
+    <part name='Result' type='xsd:int'/>
+  </message>
+  <message name='COBSObjectStore.UploadObjectData'>
+    <part name='bstrObjectGUID' type='xsd:string'/>
+    <part name='bstrFileName' type='xsd:string'/>
+  </message>
+  <message name='COBSObjectStore.UploadObjectDataResponse'>
+    <part name='Result' type='xsd:int'/>
+  </message>
+  <message name='COBSObjectStore.RetrieveSupportedClassifications'>
+  </message>
+  <message name='COBSObjectStore.RetrieveSupportedClassificationsResponse'>
+    <part name='Result' type='xsd:int'/>
+    <part name='bstrSerializedClassifications' type='xsd:string'/>
+  </message>
+  <message name='COBSObjectStore.UpdateObject'>
+    <part name='lpObject' type='xsd:int'/>
+    <part name='bstrSerializedObject' type='xsd:string'/>
+    <part name='bstrObjectGUID' type='xsd:string'/>
+  </message>
+  <message name='COBSObjectStore.UpdateObjectResponse'>
+    <part name='Result' type='xsd:int'/>
+  </message>
+  <portType name='COBSObjectStoreSoapPort'>
+    <operation name='GetObject' parameterOrder='bstrObjectGUID lpObject bstrSerializedObject'>
+      <input message='wsdlns:COBSObjectStore.GetObject' />
+      <output message='wsdlns:COBSObjectStore.GetObjectResponse' />
+    </operation>
+    <operation name='ExecuteSearch' parameterOrder='bstrResultSet bstrQueryIn bstrSearchHint'>
+      <input message='wsdlns:COBSObjectStore.ExecuteSearch' />
+      <output message='wsdlns:COBSObjectStore.ExecuteSearchResponse' />
+    </operation>
+    <operation name='GetLastUpdateTime' parameterOrder='dEnvLastUpdated dObjLastUpdated bstrQueryIn'>
+      <input message='wsdlns:COBSObjectStore.GetLastUpdateTime' />
+      <output message='wsdlns:COBSObjectStore.GetLastUpdateTimeResponse' />
+    </operation>
+    <operation name='DownloadObjectData' parameterOrder='bstrObjectGUID bstrFileName'>
+      <input message='wsdlns:COBSObjectStore.DownloadObjectData' />
+      <output message='wsdlns:COBSObjectStore.DownloadObjectDataResponse' />
+    </operation>
+    <operation name='AddObject' parameterOrder='lpObject bstrFileName bstrSerializedObject bstrObjectGUID'>
+      <input message='wsdlns:COBSObjectStore.AddObject' />
+      <output message='wsdlns:COBSObjectStore.AddObjectResponse' />
+    </operation>
+    <operation name='RemoveObject' parameterOrder='bstrObjectGUID'>
+      <input message='wsdlns:COBSObjectStore.RemoveObject' />
+      <output message='wsdlns:COBSObjectStore.RemoveObjectResponse' />
+    </operation>
+    <operation name='UploadObjectData' parameterOrder='bstrObjectGUID bstrFileName'>
+      <input message='wsdlns:COBSObjectStore.UploadObjectData' />
+      <output message='wsdlns:COBSObjectStore.UploadObjectDataResponse' />
+    </operation>
+    <operation name='RetrieveSupportedClassifications' parameterOrder='bstrSerializedClassifications'>
+      <input message='wsdlns:COBSObjectStore.RetrieveSupportedClassifications' />
+      <output message='wsdlns:COBSObjectStore.RetrieveSupportedClassificationsResponse' />
+    </operation>
+    <operation name='UpdateObject' parameterOrder='lpObject bstrSerializedObject bstrObjectGUID'>
+      <input message='wsdlns:COBSObjectStore.UpdateObject' />
+      <output message='wsdlns:COBSObjectStore.UpdateObjectResponse' />
+    </operation>
+  </portType>
+  <binding name='COBSObjectStoreSoapBinding' type='wsdlns:COBSObjectStoreSoapPort' >
+    <stk:binding preferredEncoding='UTF-8'/>
+    <soap:binding style='rpc' transport='http://schemas.xmlsoap.org/soap/http' />
+    <operation name='GetObject' >
+      <soap:operation soapAction='http://tempuri.org/action/COBSObjectStore.GetObject' />
+      <input>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </input>
+      <output>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </output>
+    </operation>
+    <operation name='ExecuteSearch' >
+      <soap:operation soapAction='http://tempuri.org/action/COBSObjectStore.ExecuteSearch' />
+      <input>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </input>
+      <output>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </output>
+    </operation>
+    <operation name='GetLastUpdateTime' >
+      <soap:operation soapAction='http://tempuri.org/action/COBSObjectStore.GetLastUpdateTime' />
+      <input>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </input>
+      <output>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </output>
+    </operation>
+    <operation name='DownloadObjectData' >
+      <soap:operation soapAction='http://tempuri.org/action/COBSObjectStore.DownloadObjectData' />
+      <input>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </input>
+      <output>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </output>
+    </operation>
+    <operation name='AddObject' >
+      <soap:operation soapAction='http://tempuri.org/action/COBSObjectStore.AddObject' />
+      <input>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </input>
+      <output>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </output>
+    </operation>
+    <operation name='RemoveObject' >
+      <soap:operation soapAction='http://tempuri.org/action/COBSObjectStore.RemoveObject' />
+      <input>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </input>
+      <output>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </output>
+    </operation>
+    <operation name='UploadObjectData' >
+      <soap:operation soapAction='http://tempuri.org/action/COBSObjectStore.UploadObjectData' />
+      <input>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </input>
+      <output>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </output>
+    </operation>
+    <operation name='RetrieveSupportedClassifications' >
+      <soap:operation soapAction='http://tempuri.org/action/COBSObjectStore.RetrieveSupportedClassifications' />
+      <input>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </input>
+      <output>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </output>
+    </operation>
+    <operation name='UpdateObject' >
+      <soap:operation soapAction='http://tempuri.org/action/COBSObjectStore.UpdateObject' />
+      <input>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </input>
+      <output>
+        <soap:body use='encoded' namespace='http://tempuri.org/message/'
+		  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/' />
+      </output>
+    </operation>
+  </binding>
+  <service name='ObjectStore' >
+    <port name='COBSObjectStoreSoapPort' binding='wsdlns:COBSObjectStoreSoapBinding' >
+      <!--soap:address location='http://127.0.0.1/obs-cgi-bin/ObjStoreServer.exe' /-->
+      <soap:address location='http://demo3.infotechfl.com/obs-cgi-bin/ObjStoreServer.exe' />
+    </port>
+  </service>
+</definitions>
+

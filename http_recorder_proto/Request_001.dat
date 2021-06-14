@@ -1,0 +1,15 @@
+bless( {
+  '_protocol' => 'HTTP/1.1',
+  '_method' => 'GET',
+  '_headers' => bless( {
+    'user-agent' => 'TrnsPort TestSuite-Relay/1.0',
+    'accept-language' => 'en-us',
+    'connection' => 'Keep-Alive',
+    'host' => 'Craigf.infotechfl.com:80',
+    'accept-encoding' => 'gzip, deflate',
+    'accept' => 'image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/x-shockwave-flash, */*'
+  }, 'HTTP::Headers' ),
+  '_uri' => bless( do{\(my $o = 'http://Craigf.infotechfl.com:80/')}, 'URI::http' ),
+  '_content' => ''
+}, 'HTTP::Request' )
+

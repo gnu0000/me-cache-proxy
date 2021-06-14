@@ -1,0 +1,570 @@
+bless( {
+  '_protocol' => 'HTTP/1.1',
+  '_request' => bless( {
+    '_protocol' => 'HTTP/1.1',
+    '_method' => 'GET',
+    '_headers' => bless( {
+      'user-agent' => 'TrnsPort TestSuite-Relay/1.0',
+      'accept-language' => 'en-us',
+      'connection' => 'Keep-Alive',
+      'host' => 'Craigf.infotechfl.com:80',
+      'accept-encoding' => 'gzip, deflate',
+      'accept' => '*/*'
+    }, 'HTTP::Headers' ),
+    '_uri' => bless( do{\(my $o = 'http://Craigf.infotechfl.com:80/')}, 'URI::http' ),
+    '_content' => ''
+  }, 'HTTP::Request' ),
+  '_headers' => bless( {
+    'client-response-num' => '1',
+    'client-transfer-encoding' => 'chunked',
+    'title' => 'Craigs Home Page',
+    'content-type' => 'text/html',
+    'server' => 'Apache/1.3.12 (Win32)',
+    'date' => 'Fri, 31 Jan 2003 19:09:20 GMT',
+    'connection' => 'close',
+    'client-date' => 'Fri, 31 Jan 2003 19:09:20 GMT'
+  }, 'HTTP::Headers' ),
+  '_msg' => 'OK',
+  '_rc' => '200',
+  '_content' => '<html>
+<head><title>Craigs Home Page</title></head>
+<body bgcolor=#ffcc99>
+<a name="top"></a>
+
+<!-- Top row menu -->
+<table width=100% border=0 cellspacing=0 cellpadding=0 bgcolor=#000000>
+	<tr>
+   <td height=25 align=left nowrap>
+		<font face="ms sans serif, geneva" size=1 color=#CCCCFF>&nbsp;&nbsp;
+		<a href="/cgi-bin/fileio.pl"><font color=#CCCCFF><b>File IO</b></font></a> | 
+		<a href="x"><font color=#CCCCFF><b>Remote Exec</b></font></a> |
+		<a href="mailto:craig@infotechfl.com"><font color=#CCCCFF><b>EMail Me</b></font></a> | 
+		<a href="x"><font color=#CCCCFF><b>Check Mail</b></font></a>
+		</font>
+	</td>
+	<td align=right nowrap>
+		<font color=#ffffff face="arial,helvetica" size=2><b>
+		
+		Friday, January 31
+		</b>&nbsp;&nbsp;</font>
+	</td>
+	</tr>
+</table>
+
+
+<!-- block under menu -->
+<table width=100% border=0 cellspacing=0 cellpadding=4>
+	<tr bgcolor=#CCCCFF>
+ 	 <td>		 
+ 	  &nbsp;	 
+ 	 </td>		 
+ 	 <td>		 
+ 	  &nbsp;	 
+ 	 </td>		 
+	 <td>
+	  <img src="images/home1.jpg">
+	 </td>
+	 <td align=center>
+	  <A HREF="a.htm" TARGET="_top"><IMG SRC="images/xh.jpg" ALT="Hey!" BORDER="0" VSPACE="2"></A>
+     </td>
+	</tr>
+	<tr>
+	 <td height=20>
+	  <spacer type=block height=20>
+	 </td>
+	</tr>
+</table>
+
+
+<!-- main links header -->
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+	<tr valign=center bgcolor=#113377>
+		<td height=25>
+	   	<image src="images/dancer.gif">
+			<font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Main Links</b></font>
+		</td>
+		<td align=right><image src="images/dancer.gif"></td>
+	</tr>
+	<tr><td height=20><spacer type=block height=20></td></tr>
+</table>
+
+
+
+<!-- bulleted list -->
+<table width=100% border=0 cellspacing=0 cellpadding=0>
+	<tr valign=top>
+	<td> &nbsp;&nbsp; </td>
+	<td width="25%"><font face="arial, helvetica" size=2>
+	<ul>
+	<li><a href="http://home.infotechfl.com" > <B>ITI Intranet </B></A>
+	<li><a href="http://home.cloverleaf.net" > <B>Cloverleaf   </B></A>
+	<li><a href="http://www.google.com"> 	    <B>Google  </B></A>
+	<li><a href="http://www.infotechfl.com"  > <B>ITI Internet </B></A>
+	</ul></font></td>
+	<td width="25%"><font face="arial, helvetica" size=2>
+	<ul>
+	<li><a href="http://www.bidx.com">            				  <B>BidX          </B></A>
+	<li><a href="http://ozetteb.infotechfl.com/index.shtml">	  <B>Ozette\'s Site </B></A>
+	<li><a href="http://randyf.infotechfl.com/~fischer"> 	  	  <B>Randy\'s Site  </B></A>
+	<li><a href="http://www.bahnhof.se/~engstrom/e_ftpsearch.htm"><B>FTPSearch	   </B></A>
+	</ul></font></td>
+	<td width="25%"><font face="arial, helvetica" size=2>
+	<ul>
+	<li><a href="http://www.altavista.com">   <B>AltaVista</B></A>
+	<li><a href="http://www.yahoo.com">       <B>Yahoo    </B></A>
+	<li><a href="http://www.geocities.com">   <B>Geocities</B></A>
+	<li><a href="http://www.lycos.com">       <B>Lycos    </B></A>
+
+<!--	<li><a href="http://www.bahnhof.se/~engstrom/e_ftpsearch.htm"><B>FTP Search(search)	</B></A> -->
+<!--	<li><a href="astalavista.box.sk"><B>Another Search(search)</B></A> -->
+
+	</ul></font></td>
+	<td width="25%"><font face="arial, helvetica" size=2>
+	<ul>
+	<li><a href="http://www.slashdot.org/">	<B>SlashDot</B></A>
+	<li><a href="http://cnn.com/WEATHER/html/GainesvilleFL.html">	<B>Local Weather</B></A>
+	<li><a href="/cgi-bin/webcam.pl">         							<B>My WebCam   </B></A>
+	<li><a href="http://www.netflix.com">         						<B>NetFlix   </B></A>
+	</ul></font></td>
+	</tr>
+</table>
+
+
+<!-- 2 COLUMNS OF DETAIL SECTIONS -->
+<table cellpadding=8 cellspacing=0 border=0 width=100%>
+	<tr>
+	<td width=50% valign=top>
+
+	<!--- Feature Links --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Featured Links </b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Homemade Animations</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/smacker/t5b.exe">Revolving Trnsport Balls</a>
+		   <li><a href="/smacker/xport-win.exe">TrnsPort Mini-Commercial</a>
+		   <li><a href="/smacker/r1-2.exe">Cloverleaf Thingie</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- DataMart --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Datamart OLAP Stuff </b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Datamart Web Pages</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/cgi-bin/dm.pl">Datamart OLAP prototype</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- Expedite --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Expedite 4.x </b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Expedite Design Docs</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+
+		   <li><a href="/products/ExpediteInterfaceDocs/index.htm">Expedite <--> Bidx Interface Spec 1.00(txt)</a>
+		   <li><a href="/products/ExpediteInterfaceDocs/heep99/">Expedite Bid Submission Technology presentation</a>
+		   <li><a href="/products/ExpediteInterfaceDocs/heep99/images.html">Bid Submission Flowcharts</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Expedite Source</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/expedite/src/">Expedite 4.2b Source</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Expedite Binaries</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/expedite/43b/setup/readme.txt"    >Expedite 4.3b Readme</a>
+		   <li><a href="/expedite/43b/setup/setup.exe"     >Expedite 4.3b Setup (exe)</a>
+		   <li><a href="/expedite/43b/bidsetup/setup.exe"  >Expedite Bid 4.3b Setup (exe)</a>
+		   <li><a href="/expedite/42b/bidsetup/samples.zip">Expedite Bid 4.2b Sample Files</a>
+		   <li><a href="/expedite/42b/setup/demoreadme.txt">Expedite 4.2b Demo Readme</a>
+		   <li><a href="/expedite/42b/setup/demosetup.exe" >Expedite 4.2b Demo Setup (exe)</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- Utiltities --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Web Based Utilities</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+
+
+		   <li><a href="http://home.infotechfl.com/cgi-bin/projectsearch.pl">Project Number Search</a>
+		   <li><a href="http://pony.infotechfl.com/mrbs/">Conference room reservation</a>
+		   <li><a href="http://home.infotechfl.com/cgi-bin/resplan.pl">Time Allocations</a>
+		   <li><a href="http://home.infotechfl.com/cgi-bin/timeinfo/timeinfo.pl">Timesheet Query</a>
+		   <li><a href="/webmaster/search/allsrch.htm">Search all O\'Reilly books</a>
+		   <li><a href="/webmaster/index/idx_0.htm">O\'Reilly books master Index</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- perl --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Perl Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="/webmaster/perl/index.htm">O\'Reilly\'s Programming Perl    </a>
+	      <li><a href="/perldocs/index.html"     >ActiveState Perl standard distribution docs</a>
+	      <li><a href="/perl/refcard/refcard.htm">Perl Reference Card            </a>
+	      <li><a href="/perl/cookbook/index.html">Perl Data structures cookbook  </a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Samples</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="sample/odbc.htm">odbc sample using MSAccess</a>
+	      <li><a href="/cgi-bin/pv.pl">Perl/Povray Sample</a>
+	      <li><a href="/cgi-bin/autoidx.pl">workarea</a>
+	      <li><a href="/cgi-bin/cgisamp.pl">CGI Sample</a>
+	      <li><a href="/perl/sample/gdsample.htm">GD Sample</a>
+	      <li><a href="/perl/sample/grapsamp.htm">Graph Sample</a>
+	      <li><a href="/perl/sample/ggrpsamp.htm">GifGraph Sample</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- C --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;C/C++ Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+
+		   <li><a href="/mfc/readme.htm">Professional MFC C++ 5</a>
+		   <li><a href="/c/ansi_esc.txt">ANSI Escape Sequences</a>
+		   <li><a href="/cpp/stl/tut.html">STL Tutorial</a>
+
+		<tr><td><B><font size=3>Links</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="http://www.codeguru.com/" >CodeGuru</a>
+		   <li><a href="http://msdn.microsoft.com/visualc/" >Microsoft Visual C Link</a>
+		   <li><a href="http://www.microsoft.com/win32dev/" >Microsoft WIN32 Development Link</a>
+		   <li><a href="http://msdn.microsoft.com/developer/default.htm" >Microsoft MSDN Site</a>
+		   <li><a href="http://www.cs.rpi.edu/~musser/stl.html" >Standard Template Library info</a>
+		   <li><a href="http://www.yahoo.com/Computers_and_Internet/Programming_Languages/C_and_C__/" > Yahoo\'s C/C++ Resources</a>
+		   <li><a href="http://devcentral.iftech.com/learning/tutorials/">Various tutorials </a>
+		   <li><a href="http://www.cis.ohio-state.edu/hypertext/faq/bngusenet/comp/lang/c++/top.html" >C++ Usenet FAQ\'s </a>
+		   <li><a href="http://www.aul.fiu.edu/tech/visualc.html" >AUL Visual C++ Page </a>
+		   <li><a href="http://www.ioccc.org/index.html" >Obfuscated C contests</a>
+		</font></td></tr>
+
+
+		</font></td></tr>
+		<tr><td><B><font size=3>Samples</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="/c/itiutil/gnulib/index.htm" >Gnulib Source </a>
+	      <li><a href="/c/itiutil/premake/index.htm">Premake Source</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- JScript --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;JScript Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/webmaster/jscript/index.htm"    >O\'Reilly\'s JavaScript</a>
+		   <li><a href="/jscript/doc/ref/index.htm"      >JavaScript Reference         </a>
+		   <li><a href="/jscript/doc/whatsnew/js1_2.html">Whats New in JavaScript 1.2  </a>
+		   <li><a href="/jscript/doc/voodoo/index.htm"   >Voodoo\'s Intro to  JavaScript</a>
+		   <li><a href="/jscript/doc/guide/index.htm"    >JavaScript Guide             </a>
+		   <li><a href="/jscript/doc/authguid/index.html">JavaScript Authors Guide     </a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Samples</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/jscript/samples/netscape/javascript.html">Samples from Netscape	</a>
+		   <li><a href="/jscript/samples/me/fade.htm"       >Background fade					</a>
+		   <li><a href="/jscript/samples/me/mousover.htm"   >MouseOver: Simple  example	</a>
+		   <li><a href="/jscript/samples/me/mousovr2.htm"   >Mouseover: Change images		</a>
+		   <li><a href="/jscript/samples/me/mousovr3.htm"   >MouseOver: java image arrays/browser detection</a>
+		   <li><a href="/jscript/samples/me/popup.htm"      >MouseOver: creating a Popup	</a>
+		   <li><a href="/jscript/samples/me/projtick.htm"   >Project Ticker					</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- Java --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Java Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/java/anfi/Tutorial/intro.html" >Anfi Tutorial</a>
+		   <li><a href="/java/anfi3ddocs/index.html"    >Anfi 3D docs</a>
+		</font></td></tr>
+
+		<tr><td><B><font size=3>Samples</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+			<table width=100% border=0 cellspacing=0 cellpadding=0>
+			   <tr><td><li><a href="/java/bumpmap/bumpmap.htm">bumpmap</a></td>
+			   	 <td><li><a href="/java/flip/flip.htm"      >flip   </a></tr>
+			   <tr><td><li><a href="/java/flow/flow.htm"      >flow   </a></td>
+			   	 <td><li><a href="/java/fract/fract.htm"    >fract  </a></tr>
+			   <tr><td><li><a href="/java/galaxy/galaxy.htm"  >galaxy </a></td>
+			   	 <td><li><a href="/java/lake/lake.htm"      >lake   </a></tr>
+			   <tr><td><li><a href="/java/rot/rot.htm"        >rot    </a></td>
+			   	 <td><li><a href="/java/tunnel/tunnel.htm"  >tunnel </a></tr>
+			   <tr><td><li><a href="/java/warp/warp.htm"      >warp   </a></td>
+			   	 <td><li><a href="/java/water/water.htm"    >water  </a></tr>
+			</table>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+<!--- personal 
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Personal Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>My Garage</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+			<table width=100% border=0 cellspacing=0 cellpadding=0>
+			   <tr><td><li><a href="/personal/JAN18_03.JPG">#03</a></td>
+			   	 <td><li><a href="/personal/JAN18_04.JPG">#04</a></td>
+			   	 <td><li><a href="/personal/JAN18_05.JPG">#05</a></tr>
+			   <tr><td><li><a href="/personal/JAN18_06.JPG">#06</a></td>
+			   	 <td><li><a href="/personal/JAN18_07.JPG">#07</a></td>
+			   	 <td><li><a href="/personal/JAN18_08.JPG">#08</a></tr>
+			   <tr><td><li><a href="/personal/JAN18_09.JPG">#09</a></td>
+			   	 <td><li><a href="/personal/JAN18_12.JPG">#12</a></td>
+			   	 <td><li><a href="/personal/JAN18_13.JPG">#13</a></tr>
+			   <tr><td><li><a href="/personal/JAN18_14.JPG">#14</a></td>
+			   	 <td><li><a href="/personal/JAN18_15.JPG">#15</a></td>
+			   	 <td><li><a href="/personal/JAN18_16.JPG">#16</a></tr>
+			   <tr><td><li><a href="/personal/JAN18_17.JPG">#17</a></td>
+			   	 <td><li><a href="/personal/JAN18_20.JPG">#20</a></td>
+			   	 <td><li><a href="/personal/JAN19_05.JPG">#05a</a></tr>
+				<tr><td><li><a href="/personal/JAN19_10.JPG"	#10</a></tr>
+			</table>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+--->
+<td width=50% valign=top bgcolor=#ffcc99>
+
+	<!-- Project Mgt Resources -->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Project Management Crapola</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		      <li><a href="/project98/usrguide.htm">Project 98 Users Guide</a>
+		      <li><a href="http://umweb1.unitedmedia.com/comics/dilbert/career/bin/ms2.cgi">Dilbert Mission Statement Generator</a>
+		      <li><a href="http://www.zdnet.com/computerstew/">Computer Stew</a>
+		      <li><a href="http://urbanlegends.miningco.com">Urban Legends</a>
+
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!-- HTML Resources -->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;HTML Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		      <li><a href="/webmaster/html/index.htm">O\'Reilly\'s HTML Guide </a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!-- CGI Resources -->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;CGI Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="/webmaster/cgi/index.htm"   >O\'Reilly\'s CGI Programming </a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Samples</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		   <li><a href="/cgi-bin/fileio.pl" >File I/O</a>
+		   <li><a href="/cgi-bin/test/test.pl">useless cgi test</a>
+		   <li><a href="/cgi/test.shtml"	   >SSI test</a>
+		   <li><a href="/cgi/form1.htm"     >Sample Form #1</a>
+		   <li><a href="/cgi/form2.htm"     >Sample Form #2</a>
+		   <li><a href="/cgi/outlook.htm"   >Sample of good page</a>
+		   <li><a href="/cgi-bin/f.pl"      >current CGI tests</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Other</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="/cgi/macromedia/a.htm">Macromedia Sample #1</a>
+	      <li><a href="/cgi/macromedia/c.htm">Macromedia Sample #2</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+
+	<!--- Apache --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Apache Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="apache/index.html">Apache Win32 official docs </a>
+	      <li><a href="http://www.apacheweek.com/">Apache Week</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- MySql --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;MySQL Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="mysql/mysql.html">MySql doc main page </a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- povray Resources --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;POVRay Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Documents</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="/povdocs/povuser.htm"   >Povray 3.1 Reference</a>
+	      <li><a href="/povray/doc/povray.htm" >Povray 3.0 Reference</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Samples</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="samples/xport-fs.exe" >TrnsPort Commercial (full screen)</a>
+	      <li><a href="samples/xport-win.exe">TrnsPort Commercial (window)</a>
+	      <li><a href="/cgi-bin/pv.pl"       >Perl/Povray Sample</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>My Animations</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+			<table width=100% border=0 cellspacing=0 cellpadding=0>
+			   <tr><td><li><a href="/smacker/A1.exe"       >A1      </a></td>
+			   	 <td><li><a href="/smacker/Blobs5.exe"   >Blobs5  </a></tr>
+			   <tr><td><li><a href="/smacker/B_SPHERE.exe" >B_SPHERE</a></td>
+			   	 <td><li><a href="/smacker/clovanim.exe" >clovanim</a></tr>
+			   <tr><td><li><a href="/smacker/Donut.exe"    >Donut   </a></td>
+			   	 <td><li><a href="/smacker/ebs_anim.exe" >ebs_anim</a></tr>
+			   <tr><td><li><a href="/smacker/nagelwav.exe" >nagelwav</a></td>
+			   	 <td><li><a href="/smacker/R1-2.exe"     >R1-2    </a></tr>
+			   <tr><td><li><a href="/smacker/t5b.exe"      >t5b     </a></td>
+			   	 <td><li><a href="/smacker/t5b_fs.exe"   >t5b_fs  </a></tr>
+			   <tr><td><li><a href="/smacker/t6a.exe"      >t6a     </a></td>
+			   	 <td><li><a href="/smacker/t6a_fs.exe"   >t6a_fs  </a></tr>
+			</table>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!--- Misc --->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Miscellaneous Resources</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Misc</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="http://www.snap.com">Snap.com</a>
+	      <li><a href="http://www.cnn.com">CNN</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Science</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="http://www.cnn.com/TECH/">CNN.com Tech</a>
+	      <li><a href="http://dailynews.yahoo.com/headlines/sc/">Reuters</a>
+	      <li><a href="http://dailynews.yahoo.com/headlines/science/ap/index.html">AP</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Sports</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="http://www.gatorsports.com">GatorSports</a>
+	      <li><a href="http://www.uaa.ufl.edu/sports/Football/football.htm">UF Football</a>
+	      <li><a href="http://www.cnnsi.com">CNNSI</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Hardware/Software</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="http://www.pricewatch.com">Pricewatch</a>
+	      <li><a href="http://www.zdnet.com/computershopper/">ComputerShopper.Com</a>
+	      <li><a href="http://www.gw2k.com">Gateway</a>
+	      <li><a href="http://www.download.com">Download.Com</a>
+	      <li><a href="http://www.shareware.com">Shareware.Com</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Consumer Links</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="http://www.amazon.com">amazon.com</a>
+	      <li><a href="http://www.buy.com">BUY.com</a>
+	      <li><a href="http://www.dvdempire.com">DVD Empire</a>
+		</font></td></tr>
+		<tr><td><B><font size=3>Games</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+	      <li><a href="http://www.crisium.com">Crisium (Stars! SG)</a>
+	      <li><a href="http://www.gamesdomain.com">Games Domain</a>
+	      <li><a href="http://www.zdnet.com/gamespot/filters/0,10850,6013054,00.html">Game Spot</a>
+	      <li><a href="http://www.gamecenter.com">Game Center</a>
+	      <li><a href="http://www.gamesmania.com">Games Mania</a>
+	      <li><a href="http://www.gamepen.com">Game Pen</a>
+	      <li><a href="http://www.avault.com">Adrenaline Vault</a>
+	      <li><a href="http://www.pcgameworld.com">PC GameWorld</a>
+	      <li><a href="http://pc.ign.com">ign</a>
+
+
+	      <li><a href="http://pc.ign.com">IGN</a>
+	      <li><a href="http://www.pcgr.com">PC Gamer</a>
+	      <li><a href="/Games/Stars/ssg.htm">Stars Strategy Guide</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+	<!-- Computer Stew -->
+	<table width=100% border=0 cellspacing=0 cellpadding=0>
+		<tr><td height=22 bgcolor=#113377><font face="arial,helvetica" color=#ffffff size=3><b>&nbsp;&nbsp;Computer Stew</b></font></td></tr>
+		<tr><td height=8><spacer type=block height=8></td></tr>
+		<tr><td><B><font size=3>Episodes</font></B></tr>
+		<tr><td><font face="arial,helvetica" size=2>
+		      <li><a href="/ComputerStew/cs0200.mov">Episode 0200 (Apple Quicktime)</a>
+		      <li><a href="/ComputerStew/cs0225.mov">Episode 0225 (Apple Quicktime)</a>
+		      <li><a href="/ComputerStew/cs0226.mov">Episode 0226 (Apple Quicktime)</a>
+		      <li><a href="/ComputerStew/cs0227.mov">Episode 0227 (Apple Quicktime)</a>
+		      <li><a href="/ComputerStew/cs0228.mov">Episode 0228 (Apple Quicktime)</a>
+		      <li><a href="/ComputerStew/cs0229.mov">Episode 0229 (Apple Quicktime)</a>
+		</font></td></tr>
+		<tr><td height=20><spacer type=block height=20></td></tr>
+	</table>
+
+
+ <!--
+	<tr><td colspan=2><B><font size=+1>Other<font size=-1></B></A><td></tr>
+	<tr><td height=20><spacer type=block height=20></td></tr>
+ -->
+	</table>
+	<tr><td width=50%></td>
+	<td width=50%></td></tr>
+	<tr><td height=20><spacer type=block height=20></td></tr>
+</table>
+
+<!-- Bottom row menu -->
+<table width=100% border=0 cellspacing=0 cellpadding=0 bgcolor=#000000>
+	<tr><td height=25 align=left nowrap>
+	<font face="ms sans serif, geneva" size=-2 color=#FFCC00>&nbsp;&nbsp;
+	<span style="color:#CCCCFF">
+	<a href="/cgi-bin/fileio.pl"><font color=#CCCCFF><b>File IO</b></font></a> | 
+	<a href="x"><font color=#CCCCFF><b>Remote Exec</b></font></a> |
+	<a href="mailto:craig@infotechfl.com"><font color=#CCCCFF><b>EMail Me</b></font></a> | 
+	<a href="x"><font color=#CCCCFF><b>Check Mail</b></font></a>
+	<td align=right>
+	<font color=#ffffff face="arial,helvetica" size=1><b>
+	
+	Last Modified Friday, December 13 2002
+	</b>&nbsp;&nbsp;</font>
+	</td>
+	</span>
+	</font>
+	</td></tr>
+</table>
+
+<!-- block under menu -->
+<table width=100% border=0 cellspacing=0 cellpadding=0>
+	<tr><td></td></tr>
+</table>
+</body>
+</html>
+'
+}, 'HTTP::Response' )
+

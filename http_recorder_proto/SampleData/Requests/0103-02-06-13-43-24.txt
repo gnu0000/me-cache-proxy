@@ -1,0 +1,26 @@
+#### ExecuteSearch ####
+
+bless( {
+  '_protocol' => 'HTTP/1.1',
+  '_content' => '
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Body>
+		<SOAPSDK1:ExecuteSearch xmlns:SOAPSDK1="http://tempuri.org/message/">
+			<bstrQueryIn>SELECT DISTINCT OBJECTGUID FROM PROPERTIES WHERE OBJECTGUID IN (SELECT DISTINCT OBJECTGUID FROM PROPERTIES WHERE PROPERTYID=&apos;NAME&apos; and PROPERTYSETTING = &apos;Test_Object&apos;)</bstrQueryIn>
+			<bstrSearchHint>
+			</bstrSearchHint>
+		</SOAPSDK1:ExecuteSearch>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>',
+  '_uri' => bless( do{\(my $o = 'http://localhost:8889/obs-cgi-bin/ObjStoreServer.exe')}, 'URI::http' ),
+  '_headers' => bless( {
+    'user-agent' => 'TrnsPort TestSuite-Relay/1.0',
+    'soapaction' => '"http://tempuri.org/action/COBSObjectStore.ExecuteSearch"',
+    'content-type' => 'text/xml; charset="UTF-8"',
+    'content-length' => '591',
+    'host' => 'localhost:8889'
+  }, 'HTTP::Headers' ),
+  '_method' => 'POST'
+}, 'HTTP::Request' )
+
